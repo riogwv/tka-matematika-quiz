@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "W01-1",
+    "group": "W",
+    "topic": "Himpunan",
+    "topicId": "W01",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Himpunan adalah kumpulan objek yang anggotanya terdefinisi jelas. Gabungan memuat anggota yang ada pada sedikitnya satu himpunan; irisan memuat anggota keduanya.",
+    "question": "Dari 30 siswa, 18 suka matematika, 15 suka bahasa Inggris, dan 7 suka keduanya. Berapa siswa menyukai setidaknya satu?",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "22"
+      },
+      {
+        "id": "B",
+        "text": "26"
+      },
+      {
+        "id": "C",
+        "text": "33"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "22 kurang 4 dari hasil 26; himpunan gabungan tetap perlu memuat seluruh anggota yang memenuhi.",
+      "Benar. 18 + 15 − 7 = 26. Irisan dikurangi sekali karena terhitung dua kali.",
+      "33 adalah 18+15; tujuh siswa yang sama masih dihitung dua kali.",
+      "40 melebihi jumlah seluruh siswa 30, sehingga tidak mungkin."
+    ],
+    "evidence": "Langkah: 18 + 15 − 7 = 26. Irisan dikurangi sekali karena terhitung dua kali. Gunakan: n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "formula": "n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W01-2",
+    "group": "W",
+    "topic": "Himpunan",
+    "topicId": "W01",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Himpunan adalah kumpulan objek yang anggotanya terdefinisi jelas. Gabungan memuat anggota yang ada pada sedikitnya satu himpunan; irisan memuat anggota keduanya.",
+    "question": "Di kelas, 12 siswa bermain catur, 9 bermain futsal, dan 4 bermain keduanya. Banyak yang bermain setidaknya satu adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "21"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 12+9−4=17 siswa; kelompok irisan dihitung sekali.",
+      "Benar. 12+9−4=17 siswa; kelompok irisan dihitung sekali.",
+      "Tidak sesuai. 12+9−4=17 siswa; kelompok irisan dihitung sekali.",
+      "Tidak sesuai. 12+9−4=17 siswa; kelompok irisan dihitung sekali."
+    ],
+    "evidence": "Langkah: 12+9−4=17 siswa; kelompok irisan dihitung sekali. Gunakan: n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "formula": "n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W01-3",
+    "group": "W",
+    "topic": "Himpunan",
+    "topicId": "W01",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Himpunan adalah kumpulan objek yang anggotanya terdefinisi jelas. Gabungan memuat anggota yang ada pada sedikitnya satu himpunan; irisan memuat anggota keduanya.",
+    "question": "A={1,2,3,4} dan B={3,4,5}. Banyak anggota A∩B adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. A∩B={3,4}, sehingga ada 2 anggota.",
+      "Benar. A∩B={3,4}, sehingga ada 2 anggota.",
+      "Tidak sesuai. A∩B={3,4}, sehingga ada 2 anggota.",
+      "Tidak sesuai. A∩B={3,4}, sehingga ada 2 anggota."
+    ],
+    "evidence": "Langkah: A∩B={3,4}, sehingga ada 2 anggota. Gunakan: n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "formula": "n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W02-1",
+    "group": "W",
+    "topic": "Bilangan real dan pangkat",
+    "topicId": "W02",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Bilangan real mencakup rasional dan irasional. Pangkat menyatakan perkalian berulang; akar kuadrat utama bernilai tidak negatif.",
+    "question": "Nilai 2⁻² + √36 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5¼"
+      },
+      {
+        "id": "B",
+        "text": "6¼"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "5¼ lebih kecil satu dari 6+¼.",
+      "Benar. 2⁻² = 1/4 dan √36 = 6, sehingga hasilnya 6¼.",
+      "8 tidak diperoleh dari ¼+6.",
+      "10 tidak diperoleh dari ¼+6."
+    ],
+    "evidence": "Langkah: 2⁻² = 1/4 dan √36 = 6, sehingga hasilnya 6¼. Gunakan: aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "formula": "aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W02-2",
+    "group": "W",
+    "topic": "Bilangan real dan pangkat",
+    "topicId": "W02",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Bilangan real mencakup rasional dan irasional. Pangkat menyatakan perkalian berulang; akar kuadrat utama bernilai tidak negatif.",
+    "question": "Nilai 3²×3³ adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3⁵"
+      },
+      {
+        "id": "B",
+        "text": "3⁶"
+      },
+      {
+        "id": "C",
+        "text": "6⁵"
+      },
+      {
+        "id": "D",
+        "text": "9⁶"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Basis sama, pangkat dijumlahkan: 3²×3³=3⁵.",
+      "Tidak sesuai. Basis sama, pangkat dijumlahkan: 3²×3³=3⁵.",
+      "Tidak sesuai. Basis sama, pangkat dijumlahkan: 3²×3³=3⁵.",
+      "Tidak sesuai. Basis sama, pangkat dijumlahkan: 3²×3³=3⁵."
+    ],
+    "evidence": "Langkah: Basis sama, pangkat dijumlahkan: 3²×3³=3⁵. Gunakan: aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "formula": "aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W02-3",
+    "group": "W",
+    "topic": "Bilangan real dan pangkat",
+    "topicId": "W02",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Bilangan real mencakup rasional dan irasional. Pangkat menyatakan perkalian berulang; akar kuadrat utama bernilai tidak negatif.",
+    "question": "Nilai √49 + 1/2 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "6½"
+      },
+      {
+        "id": "B",
+        "text": "7½"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "49½"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. √49=7 dan 7+½=7½.",
+      "Benar. √49=7 dan 7+½=7½.",
+      "Tidak sesuai. √49=7 dan 7+½=7½.",
+      "Tidak sesuai. √49=7 dan 7+½=7½."
+    ],
+    "evidence": "Langkah: √49=7 dan 7+½=7½. Gunakan: aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "formula": "aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W03-1",
+    "group": "W",
+    "topic": "Fungsi dan invers",
+    "topicId": "W03",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Fungsi memasangkan setiap input tepat satu output. Fungsi invers mengembalikan output ke input.",
+    "question": "Jika f(x) = 3x − 5, maka f⁻¹(7) = …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "2/3 menghasilkan f(2/3)=−3, bukan 7.",
+      "Benar. Misalkan 3x − 5 = 7. Maka 3x = 12 dan x = 4. Cek f(4)=7.",
+      "16 menghasilkan f(16)=43.",
+      "21 menghasilkan f(21)=58."
+    ],
+    "evidence": "Langkah: Misalkan 3x − 5 = 7. Maka 3x = 12 dan x = 4. Cek f(4)=7. Gunakan: f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "formula": "f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W03-2",
+    "group": "W",
+    "topic": "Fungsi dan invers",
+    "topicId": "W03",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Fungsi memasangkan setiap input tepat satu output. Fungsi invers mengembalikan output ke input.",
+    "question": "Jika f(x)=2x+3, nilai f⁻¹(11) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 2x+3=11, maka x=4; periksa f(4)=11.",
+      "Benar. 2x+3=11, maka x=4; periksa f(4)=11.",
+      "Tidak sesuai. 2x+3=11, maka x=4; periksa f(4)=11.",
+      "Tidak sesuai. 2x+3=11, maka x=4; periksa f(4)=11."
+    ],
+    "evidence": "Langkah: 2x+3=11, maka x=4; periksa f(4)=11. Gunakan: f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "formula": "f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W03-3",
+    "group": "W",
+    "topic": "Fungsi dan invers",
+    "topicId": "W03",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Fungsi memasangkan setiap input tepat satu output. Fungsi invers mengembalikan output ke input.",
+    "question": "Jika f(x)=5x−1, nilai input yang menghasilkan 14 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 5x−1=14 memberi 5x=15 dan x=3.",
+      "Benar. 5x−1=14 memberi 5x=15 dan x=3.",
+      "Tidak sesuai. 5x−1=14 memberi 5x=15 dan x=3.",
+      "Tidak sesuai. 5x−1=14 memberi 5x=15 dan x=3."
+    ],
+    "evidence": "Langkah: 5x−1=14 memberi 5x=15 dan x=3. Gunakan: f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "formula": "f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W04-1",
+    "group": "W",
+    "topic": "Komposisi fungsi",
+    "topicId": "W04",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Komposisi memasukkan keluaran fungsi dalam sebagai masukan fungsi luar.",
+    "question": "f(x)=2x+1 dan g(x)=x². Nilai (f ∘ g)(3) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "19"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "49"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "13 bukan hasil f(9)=19.",
+      "Benar. g(3)=9, lalu f(9)=19. Nilai 49 berasal dari urutan g(f(3)).",
+      "25 bukan hasil f(9)=19.",
+      "49 berasal dari g(f(3)), yaitu urutan komposisi terbalik."
+    ],
+    "evidence": "Langkah: g(3)=9, lalu f(9)=19. Nilai 49 berasal dari urutan g(f(3)). Gunakan: (f ∘ g)(x) = f(g(x))",
+    "formula": "(f ∘ g)(x) = f(g(x))",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W04-2",
+    "group": "W",
+    "topic": "Komposisi fungsi",
+    "topicId": "W04",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Komposisi memasukkan keluaran fungsi dalam sebagai masukan fungsi luar.",
+    "question": "f(x)=x+2 dan g(x)=3x. Nilai f(g(2)) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. g(2)=6, kemudian f(6)=8.",
+      "Benar. g(2)=6, kemudian f(6)=8.",
+      "Tidak sesuai. g(2)=6, kemudian f(6)=8.",
+      "Tidak sesuai. g(2)=6, kemudian f(6)=8."
+    ],
+    "evidence": "Langkah: g(2)=6, kemudian f(6)=8. Gunakan: (f ∘ g)(x) = f(g(x))",
+    "formula": "(f ∘ g)(x) = f(g(x))",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W04-3",
+    "group": "W",
+    "topic": "Komposisi fungsi",
+    "topicId": "W04",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Komposisi memasukkan keluaran fungsi dalam sebagai masukan fungsi luar.",
+    "question": "f(x)=x² dan g(x)=x−1. Nilai g(f(3)) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. f(3)=9, lalu g(9)=8.",
+      "Benar. f(3)=9, lalu g(9)=8.",
+      "Tidak sesuai. f(3)=9, lalu g(9)=8.",
+      "Tidak sesuai. f(3)=9, lalu g(9)=8."
+    ],
+    "evidence": "Langkah: f(3)=9, lalu g(9)=8. Gunakan: (f ∘ g)(x) = f(g(x))",
+    "formula": "(f ∘ g)(x) = f(g(x))",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W05-1",
+    "group": "W",
+    "topic": "Barisan dan deret aritmetika",
+    "topicId": "W05",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Barisan aritmetika memiliki beda tetap; deret adalah jumlah suku-sukunya.",
+    "question": "Barisan 4, 7, 10, … memiliki suku ke-8 sebesar …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "22"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "31"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "22 adalah suku ke-7, bukan suku ke-8.",
+      "Benar. a=4 dan b=3. U₈=4+7(3)=25.",
+      "28 adalah suku ke-9.",
+      "31 adalah suku ke-10."
+    ],
+    "evidence": "Langkah: a=4 dan b=3. U₈=4+7(3)=25. Gunakan: Uₙ = a+(n−1)b; Sₙ = n[2a+(n−1)b]/2",
+    "formula": "Uₙ = a+(n−1)b; Sₙ = n[2a+(n−1)b]/2",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W05-2",
+    "group": "W",
+    "topic": "Barisan dan deret aritmetika",
+    "topicId": "W05",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Barisan aritmetika memiliki beda tetap; deret adalah jumlah suku-sukunya.",
+    "question": "Barisan 5, 9, 13, … memiliki suku ke-6 sebesar …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "21"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "29"
+      },
+      {
+        "id": "D",
+        "text": "33"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. a=5, b=4: U₆=5+5×4=25.",
+      "Benar. a=5, b=4: U₆=5+5×4=25.",
+      "Tidak sesuai. a=5, b=4: U₆=5+5×4=25.",
+      "Tidak sesuai. a=5, b=4: U₆=5+5×4=25."
+    ],
+    "evidence": "Langkah: a=5, b=4: U₆=5+5×4=25. Gunakan: Uₙ = a+(n−1)b; Sₙ = n[2a+(n−1)b]/2",
+    "formula": "Uₙ = a+(n−1)b; Sₙ = n[2a+(n−1)b]/2",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W05-3",
+    "group": "W",
+    "topic": "Barisan dan deret aritmetika",
+    "topicId": "W05",
+    "difficulty": "Menantang",
+    "passage": "Konsep: Barisan aritmetika memiliki beda tetap; deret adalah jumlah suku-sukunya.",
+    "question": "Satu gedung menata 10 baris kursi. Baris pertama 6 kursi dan tiap baris berikutnya bertambah 3 kursi. Berapa jumlah seluruh kursi?",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "165"
+      },
+      {
+        "id": "B",
+        "text": "180"
+      },
+      {
+        "id": "C",
+        "text": "195"
+      },
+      {
+        "id": "D",
+        "text": "210"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. a=6, b=3, n=10. S₁₀=10/2×[2(6)+9(3)]=5×39=195 kursi.",
+      "Tidak sesuai. a=6, b=3, n=10. S₁₀=10/2×[2(6)+9(3)]=5×39=195 kursi.",
+      "Benar. a=6, b=3, n=10. S₁₀=10/2×[2(6)+9(3)]=5×39=195 kursi.",
+      "Tidak sesuai. a=6, b=3, n=10. S₁₀=10/2×[2(6)+9(3)]=5×39=195 kursi."
+    ],
+    "evidence": "a=6, b=3, n=10. S₁₀=10/2×[2(6)+9(3)]=5×39=195 kursi.",
+    "formula": "Uₙ = a+(n−1)b; Sₙ = n[2a+(n−1)b]/2",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W06-1",
+    "group": "W",
+    "topic": "Barisan dan deret geometri",
+    "topicId": "W06",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Barisan geometri memiliki rasio tetap antara dua suku berurutan. Deret geometri menjumlahkan suku-suku tersebut.",
+    "question": "Jumlah empat suku pertama 3, 6, 12, … adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "30"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "48"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "24 hanya suku ke-4, bukan jumlah empat suku.",
+      "30 bukan jumlah 3+6+12+24.",
+      "Benar. 3+6+12+24=45. Atau S₄=3(16−1)/(2−1)=45.",
+      "48 bukan jumlah empat suku."
+    ],
+    "evidence": "Langkah: 3+6+12+24=45. Atau S₄=3(16−1)/(2−1)=45. Gunakan: Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "formula": "Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W06-2",
+    "group": "W",
+    "topic": "Barisan dan deret geometri",
+    "topicId": "W06",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Barisan geometri memiliki rasio tetap antara dua suku berurutan. Deret geometri menjumlahkan suku-suku tersebut.",
+    "question": "Barisan 2, 6, 18, … memiliki suku ke-4 sebesar …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "54"
+      },
+      {
+        "id": "C",
+        "text": "72"
+      },
+      {
+        "id": "D",
+        "text": "162"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Rasio 3, sehingga U₄=2×3³=54.",
+      "Benar. Rasio 3, sehingga U₄=2×3³=54.",
+      "Tidak sesuai. Rasio 3, sehingga U₄=2×3³=54.",
+      "Tidak sesuai. Rasio 3, sehingga U₄=2×3³=54."
+    ],
+    "evidence": "Langkah: Rasio 3, sehingga U₄=2×3³=54. Gunakan: Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "formula": "Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W06-3",
+    "group": "W",
+    "topic": "Barisan dan deret geometri",
+    "topicId": "W06",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Barisan geometri memiliki rasio tetap antara dua suku berurutan. Deret geometri menjumlahkan suku-suku tersebut.",
+    "question": "Jumlah tiga suku pertama 4, 8, 16, … adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "56"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 4+8+16=28.",
+      "Benar. 4+8+16=28.",
+      "Tidak sesuai. 4+8+16=28.",
+      "Tidak sesuai. 4+8+16=28."
+    ],
+    "evidence": "Langkah: 4+8+16=28. Gunakan: Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "formula": "Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W07-1",
+    "group": "W",
+    "topic": "Sistem pertidaksamaan linear",
+    "topicId": "W07",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Setiap pertidaksamaan membatasi wilayah; solusi sistem adalah irisan semua wilayah.",
+    "question": "Titik mana yang memenuhi x≥0, y≥0, dan x+y≤5?",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−1,2)"
+      },
+      {
+        "id": "B",
+        "text": "(3,3)"
+      },
+      {
+        "id": "C",
+        "text": "(2,3)"
+      },
+      {
+        "id": "D",
+        "text": "(4,2)"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "(−1,2) melanggar x≥0.",
+      "(3,3) melanggar x+y≤5.",
+      "Benar. (2,3) tidak negatif dan 2+3=5. Tiga titik lain melanggar sedikitnya satu syarat.",
+      "(4,2) melanggar x+y≤5."
+    ],
+    "evidence": "Langkah: (2,3) tidak negatif dan 2+3=5. Tiga titik lain melanggar sedikitnya satu syarat. Gunakan: Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "formula": "Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W07-2",
+    "group": "W",
+    "topic": "Sistem pertidaksamaan linear",
+    "topicId": "W07",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Setiap pertidaksamaan membatasi wilayah; solusi sistem adalah irisan semua wilayah.",
+    "question": "Manakah titik yang memenuhi x≥1 dan y≤2?",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(0,1)"
+      },
+      {
+        "id": "B",
+        "text": "(1,3)"
+      },
+      {
+        "id": "C",
+        "text": "(2,2)"
+      },
+      {
+        "id": "D",
+        "text": "(−1,0)"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. (2,2) memenuhi 2≥1 dan 2≤2.",
+      "Tidak sesuai. (2,2) memenuhi 2≥1 dan 2≤2.",
+      "Benar. (2,2) memenuhi 2≥1 dan 2≤2.",
+      "Tidak sesuai. (2,2) memenuhi 2≥1 dan 2≤2."
+    ],
+    "evidence": "Langkah: (2,2) memenuhi 2≥1 dan 2≤2. Gunakan: Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "formula": "Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W07-3",
+    "group": "W",
+    "topic": "Sistem pertidaksamaan linear",
+    "topicId": "W07",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Setiap pertidaksamaan membatasi wilayah; solusi sistem adalah irisan semua wilayah.",
+    "question": "Jika −2x≤6, maka penyelesaiannya …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "x≤−3"
+      },
+      {
+        "id": "B",
+        "text": "x≥−3"
+      },
+      {
+        "id": "C",
+        "text": "x≤3"
+      },
+      {
+        "id": "D",
+        "text": "x≥3"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Bagi kedua sisi dengan −2 dan balik tanda: x≥−3.",
+      "Benar. Bagi kedua sisi dengan −2 dan balik tanda: x≥−3.",
+      "Tidak sesuai. Bagi kedua sisi dengan −2 dan balik tanda: x≥−3.",
+      "Tidak sesuai. Bagi kedua sisi dengan −2 dan balik tanda: x≥−3."
+    ],
+    "evidence": "Langkah: Bagi kedua sisi dengan −2 dan balik tanda: x≥−3. Gunakan: Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "formula": "Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W08-1",
+    "group": "W",
+    "topic": "SPLTV",
+    "topicId": "W08",
+    "difficulty": "Dasar",
+    "passage": "Konsep: SPLTV terdiri dari persamaan linear dengan tiga variabel. Solusinya memenuhi semua persamaan bersamaan.",
+    "question": "x+y+z=6, x−y=0, dan z=2. Nilai x adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Jika x=1, maka y=1 dan jumlah dengan z=2 hanya 4.",
+      "Benar. z=2 memberi x+y=4; x=y sehingga 2x=4 dan x=2. Cek 2+2+2=6.",
+      "Jika x=3, maka y=3 sehingga jumlahnya 8.",
+      "Jika x=4, maka y=4 sehingga jumlahnya 10."
+    ],
+    "evidence": "Langkah: z=2 memberi x+y=4; x=y sehingga 2x=4 dan x=2. Cek 2+2+2=6. Gunakan: Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "formula": "Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W08-2",
+    "group": "W",
+    "topic": "SPLTV",
+    "topicId": "W08",
+    "difficulty": "Dasar",
+    "passage": "Konsep: SPLTV terdiri dari persamaan linear dengan tiga variabel. Solusinya memenuhi semua persamaan bersamaan.",
+    "question": "Jika x+y+z=9, x=2, dan y=3, nilai z …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 2+3+z=9 maka z=4.",
+      "Benar. 2+3+z=9 maka z=4.",
+      "Tidak sesuai. 2+3+z=9 maka z=4.",
+      "Tidak sesuai. 2+3+z=9 maka z=4."
+    ],
+    "evidence": "Langkah: 2+3+z=9 maka z=4. Gunakan: Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "formula": "Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W08-3",
+    "group": "W",
+    "topic": "SPLTV",
+    "topicId": "W08",
+    "difficulty": "Menengah",
+    "passage": "Konsep: SPLTV terdiri dari persamaan linear dengan tiga variabel. Solusinya memenuhi semua persamaan bersamaan.",
+    "question": "Jika x+y+z=12, x=y dan z=4, maka x= …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. x+y=8 dan x=y sehingga 2x=8, x=4.",
+      "Tidak sesuai. x+y=8 dan x=y sehingga 2x=8, x=4.",
+      "Benar. x+y=8 dan x=y sehingga 2x=8, x=4.",
+      "Tidak sesuai. x+y=8 dan x=y sehingga 2x=8, x=4."
+    ],
+    "evidence": "Langkah: x+y=8 dan x=y sehingga 2x=8, x=4. Gunakan: Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "formula": "Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W09-1",
+    "group": "W",
+    "topic": "Sudut, garis, dan bidang",
+    "topicId": "W09",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Garis sejajar tidak berpotongan dalam satu bidang; garis berpotongan membentuk sudut bertolak belakang dan berpelurus.",
+    "question": "Dua sudut dalam segitiga 50° dan 65°. Sudut ketiga adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "55°"
+      },
+      {
+        "id": "B",
+        "text": "65°"
+      },
+      {
+        "id": "C",
+        "text": "75°"
+      },
+      {
+        "id": "D",
+        "text": "115°"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "55° membuat jumlah sudut 170°.",
+      "Benar. 180°−50°−65°=65°. Periksa jumlah ketiganya 180°.",
+      "75° membuat jumlah sudut 190°.",
+      "115° membuat jumlah sudut 230°."
+    ],
+    "evidence": "Langkah: 180°−50°−65°=65°. Periksa jumlah ketiganya 180°. Gunakan: Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "formula": "Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W09-2",
+    "group": "W",
+    "topic": "Sudut, garis, dan bidang",
+    "topicId": "W09",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Garis sejajar tidak berpotongan dalam satu bidang; garis berpotongan membentuk sudut bertolak belakang dan berpelurus.",
+    "question": "Sudut berpelurus dengan sudut 115° adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "55°"
+      },
+      {
+        "id": "B",
+        "text": "65°"
+      },
+      {
+        "id": "C",
+        "text": "75°"
+      },
+      {
+        "id": "D",
+        "text": "115°"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Sudut berpelurus berjumlah 180°: 180−115=65°.",
+      "Benar. Sudut berpelurus berjumlah 180°: 180−115=65°.",
+      "Tidak sesuai. Sudut berpelurus berjumlah 180°: 180−115=65°.",
+      "Tidak sesuai. Sudut berpelurus berjumlah 180°: 180−115=65°."
+    ],
+    "evidence": "Langkah: Sudut berpelurus berjumlah 180°: 180−115=65°. Gunakan: Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "formula": "Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W09-3",
+    "group": "W",
+    "topic": "Sudut, garis, dan bidang",
+    "topicId": "W09",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Garis sejajar tidak berpotongan dalam satu bidang; garis berpotongan membentuk sudut bertolak belakang dan berpelurus.",
+    "question": "Dua sudut segitiga adalah 35° dan 85°. Sudut ketiga …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "50°"
+      },
+      {
+        "id": "B",
+        "text": "60°"
+      },
+      {
+        "id": "C",
+        "text": "70°"
+      },
+      {
+        "id": "D",
+        "text": "80°"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 180°−35°−85°=60°.",
+      "Benar. 180°−35°−85°=60°.",
+      "Tidak sesuai. 180°−35°−85°=60°.",
+      "Tidak sesuai. 180°−35°−85°=60°."
+    ],
+    "evidence": "Langkah: 180°−35°−85°=60°. Gunakan: Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "formula": "Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W10-1",
+    "group": "W",
+    "topic": "Kesebangunan dan kekongruenan",
+    "topicId": "W10",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Bangun sebangun mempunyai sudut bersesuaian sama dan rasio sisi bersesuaian tetap. Kongruen berarti sebangun dengan ukuran sama.",
+    "question": "Segitiga kecil sebangun dengan segitiga besar. Sisi 4 cm bersesuaian 10 cm; sisi 6 cm bersesuaian dengan …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "15 cm"
+      },
+      {
+        "id": "C",
+        "text": "16 cm"
+      },
+      {
+        "id": "D",
+        "text": "24 cm"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Rasio 12/6=2 tidak sama dengan 10/4=2,5.",
+      "Benar. Faktor skala 10/4=2,5 sehingga 6×2,5=15 cm.",
+      "16/6 bukan 2,5.",
+      "24/6=4 bukan 2,5."
+    ],
+    "evidence": "Langkah: Faktor skala 10/4=2,5 sehingga 6×2,5=15 cm. Gunakan: Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "formula": "Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W10-2",
+    "group": "W",
+    "topic": "Kesebangunan dan kekongruenan",
+    "topicId": "W10",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Bangun sebangun mempunyai sudut bersesuaian sama dan rasio sisi bersesuaian tetap. Kongruen berarti sebangun dengan ukuran sama.",
+    "question": "Peta berskala 1:100.000. Jarak 2 cm pada peta mewakili …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "200 m"
+      },
+      {
+        "id": "B",
+        "text": "2 km"
+      },
+      {
+        "id": "C",
+        "text": "20 km"
+      },
+      {
+        "id": "D",
+        "text": "200 km"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. 2 cm×100.000=200.000 cm=2 km.",
+      "Benar. 2 cm×100.000=200.000 cm=2 km.",
+      "Tidak sesuai. 2 cm×100.000=200.000 cm=2 km.",
+      "Tidak sesuai. 2 cm×100.000=200.000 cm=2 km."
+    ],
+    "evidence": "Langkah: 2 cm×100.000=200.000 cm=2 km. Gunakan: Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "formula": "Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W10-3",
+    "group": "W",
+    "topic": "Kesebangunan dan kekongruenan",
+    "topicId": "W10",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Bangun sebangun mempunyai sudut bersesuaian sama dan rasio sisi bersesuaian tetap. Kongruen berarti sebangun dengan ukuran sama.",
+    "question": "Sisi bangun sebangun diperbesar 3 kali. Luasnya menjadi …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 kali"
+      },
+      {
+        "id": "B",
+        "text": "6 kali"
+      },
+      {
+        "id": "C",
+        "text": "9 kali"
+      },
+      {
+        "id": "D",
+        "text": "27 kali"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Skala luas adalah kuadrat faktor panjang: 3²=9.",
+      "Tidak sesuai. Skala luas adalah kuadrat faktor panjang: 3²=9.",
+      "Benar. Skala luas adalah kuadrat faktor panjang: 3²=9.",
+      "Tidak sesuai. Skala luas adalah kuadrat faktor panjang: 3²=9."
+    ],
+    "evidence": "Langkah: Skala luas adalah kuadrat faktor panjang: 3²=9. Gunakan: Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "formula": "Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W11-1",
+    "group": "W",
+    "topic": "Teorema Pythagoras",
+    "topicId": "W11",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Teorema Pythagoras menghubungkan dua sisi siku-siku dan sisi miring.",
+    "question": "Segitiga siku-siku memiliki kaki 6 cm dan 8 cm. Sisi miringnya …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 cm"
+      },
+      {
+        "id": "B",
+        "text": "10 cm"
+      },
+      {
+        "id": "C",
+        "text": "14 cm"
+      },
+      {
+        "id": "D",
+        "text": "100 cm"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "7²=49, bukan 6²+8²=100.",
+      "Benar. c²=36+64=100, jadi c=10 cm. Nilai 100 adalah kuadrat panjang, bukan panjang.",
+      "14 adalah jumlah kedua kaki, bukan sisi miring.",
+      "100 adalah c²; panjang c=√100=10."
+    ],
+    "evidence": "Langkah: c²=36+64=100, jadi c=10 cm. Nilai 100 adalah kuadrat panjang, bukan panjang. Gunakan: a²+b²=c² dengan c sisi miring",
+    "formula": "a²+b²=c² dengan c sisi miring",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W11-2",
+    "group": "W",
+    "topic": "Teorema Pythagoras",
+    "topicId": "W11",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Teorema Pythagoras menghubungkan dua sisi siku-siku dan sisi miring.",
+    "question": "Segitiga siku-siku memiliki kaki 5 dan 12. Panjang hipotenusa …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "17"
+      },
+      {
+        "id": "D",
+        "text": "169"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. √(5²+12²)=√169=13.",
+      "Tidak sesuai. √(5²+12²)=√169=13.",
+      "Tidak sesuai. √(5²+12²)=√169=13.",
+      "Tidak sesuai. √(5²+12²)=√169=13."
+    ],
+    "evidence": "Langkah: √(5²+12²)=√169=13. Gunakan: a²+b²=c² dengan c sisi miring",
+    "formula": "a²+b²=c² dengan c sisi miring",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W11-3",
+    "group": "W",
+    "topic": "Teorema Pythagoras",
+    "topicId": "W11",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Teorema Pythagoras menghubungkan dua sisi siku-siku dan sisi miring.",
+    "question": "Sisi miring 13 dan satu kaki 5. Panjang kaki lain …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Kaki lain √(13²−5²)=√144=12.",
+      "Tidak sesuai. Kaki lain √(13²−5²)=√144=12.",
+      "Benar. Kaki lain √(13²−5²)=√144=12.",
+      "Tidak sesuai. Kaki lain √(13²−5²)=√144=12."
+    ],
+    "evidence": "Langkah: Kaki lain √(13²−5²)=√144=12. Gunakan: a²+b²=c² dengan c sisi miring",
+    "formula": "a²+b²=c² dengan c sisi miring",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W12-1",
+    "group": "W",
+    "topic": "Transformasi geometri",
+    "topicId": "W12",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Transformasi memetakan titik menjadi bayangan melalui translasi, refleksi, rotasi, atau dilatasi.",
+    "question": "Titik (2,−1) ditranslasi oleh (3,4). Bayangannya …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(5,3)"
+      },
+      {
+        "id": "B",
+        "text": "(−1,−5)"
+      },
+      {
+        "id": "C",
+        "text": "(6,−4)"
+      },
+      {
+        "id": "D",
+        "text": "(2,3)"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Tambahkan komponen: (2+3,−1+4)=(5,3).",
+      "(−1,−5) diperoleh dengan mengurangkan vektor translasi.",
+      "(6,−4) bukan hasil penjumlahan komponen.",
+      "(2,3) tidak menambahkan 3 pada koordinat x."
+    ],
+    "evidence": "Langkah: Tambahkan komponen: (2+3,−1+4)=(5,3). Gunakan: T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "formula": "T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W12-2",
+    "group": "W",
+    "topic": "Transformasi geometri",
+    "topicId": "W12",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Transformasi memetakan titik menjadi bayangan melalui translasi, refleksi, rotasi, atau dilatasi.",
+    "question": "Refleksi titik (3,−2) pada sumbu-x menghasilkan …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−3,−2)"
+      },
+      {
+        "id": "B",
+        "text": "(3,2)"
+      },
+      {
+        "id": "C",
+        "text": "(−3,2)"
+      },
+      {
+        "id": "D",
+        "text": "(2,3)"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Refleksi sumbu-x: (x,y)↦(x,−y), jadi (3,2).",
+      "Benar. Refleksi sumbu-x: (x,y)↦(x,−y), jadi (3,2).",
+      "Tidak sesuai. Refleksi sumbu-x: (x,y)↦(x,−y), jadi (3,2).",
+      "Tidak sesuai. Refleksi sumbu-x: (x,y)↦(x,−y), jadi (3,2)."
+    ],
+    "evidence": "Langkah: Refleksi sumbu-x: (x,y)↦(x,−y), jadi (3,2). Gunakan: T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "formula": "T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W12-3",
+    "group": "W",
+    "topic": "Transformasi geometri",
+    "topicId": "W12",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Transformasi memetakan titik menjadi bayangan melalui translasi, refleksi, rotasi, atau dilatasi.",
+    "question": "Dilatasi pusat O dengan faktor 2 pada titik (−1,4) menghasilkan …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−2,8)"
+      },
+      {
+        "id": "B",
+        "text": "(1,−4)"
+      },
+      {
+        "id": "C",
+        "text": "(−1,8)"
+      },
+      {
+        "id": "D",
+        "text": "(2,8)"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Kalikan kedua koordinat dengan 2: (−2,8).",
+      "Tidak sesuai. Kalikan kedua koordinat dengan 2: (−2,8).",
+      "Tidak sesuai. Kalikan kedua koordinat dengan 2: (−2,8).",
+      "Tidak sesuai. Kalikan kedua koordinat dengan 2: (−2,8)."
+    ],
+    "evidence": "Langkah: Kalikan kedua koordinat dengan 2: (−2,8). Gunakan: T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "formula": "T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W13-1",
+    "group": "W",
+    "topic": "Jarak dua titik dan ruang",
+    "topicId": "W13",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Jarak dua titik adalah panjang ruas yang menghubungkannya; koordinat membentuk segitiga siku-siku.",
+    "question": "Jarak A(1,2) ke B(4,6) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "3 hanya selisih x.",
+      "4 hanya selisih y.",
+      "Benar. Selisih koordinat 3 dan 4; d=√(9+16)=5.",
+      "7 menjumlahkan selisih, bukan menghitung jarak lurus."
+    ],
+    "evidence": "Langkah: Selisih koordinat 3 dan 4; d=√(9+16)=5. Gunakan: d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "formula": "d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W13-2",
+    "group": "W",
+    "topic": "Jarak dua titik dan ruang",
+    "topicId": "W13",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Jarak dua titik adalah panjang ruas yang menghubungkannya; koordinat membentuk segitiga siku-siku.",
+    "question": "Jarak (0,0) ke (6,8) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "14"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. √(6²+8²)=√100=10.",
+      "Benar. √(6²+8²)=√100=10.",
+      "Tidak sesuai. √(6²+8²)=√100=10.",
+      "Tidak sesuai. √(6²+8²)=√100=10."
+    ],
+    "evidence": "Langkah: √(6²+8²)=√100=10. Gunakan: d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "formula": "d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W13-3",
+    "group": "W",
+    "topic": "Jarak dua titik dan ruang",
+    "topicId": "W13",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Jarak dua titik adalah panjang ruas yang menghubungkannya; koordinat membentuk segitiga siku-siku.",
+    "question": "Jarak titik (1,1) dan (1,6) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Koordinat x sama, jadi jarak |6−1|=5.",
+      "Benar. Koordinat x sama, jadi jarak |6−1|=5.",
+      "Tidak sesuai. Koordinat x sama, jadi jarak |6−1|=5.",
+      "Tidak sesuai. Koordinat x sama, jadi jarak |6−1|=5."
+    ],
+    "evidence": "Langkah: Koordinat x sama, jadi jarak |6−1|=5. Gunakan: d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "formula": "d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W14-1",
+    "group": "W",
+    "topic": "Keliling dan luas datar",
+    "topicId": "W14",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Keliling adalah panjang batas bangun; luas adalah ukuran daerah di dalamnya.",
+    "question": "Persegi panjang panjang 8 cm dan lebar 5 cm. Luasnya …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 cm²"
+      },
+      {
+        "id": "B",
+        "text": "26 cm²"
+      },
+      {
+        "id": "C",
+        "text": "40 cm²"
+      },
+      {
+        "id": "D",
+        "text": "80 cm²"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "13 adalah jumlah panjang dan lebar.",
+      "26 adalah keliling dalam cm, bukan luas.",
+      "Benar. L=8×5=40 cm². 26 cm adalah keliling, bukan luas.",
+      "80 adalah dua kali luas."
+    ],
+    "evidence": "Langkah: L=8×5=40 cm². 26 cm adalah keliling, bukan luas. Gunakan: Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "formula": "Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W14-2",
+    "group": "W",
+    "topic": "Keliling dan luas datar",
+    "topicId": "W14",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Keliling adalah panjang batas bangun; luas adalah ukuran daerah di dalamnya.",
+    "question": "Luas segitiga beralas 10 cm dan tinggi 6 cm adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 cm²"
+      },
+      {
+        "id": "B",
+        "text": "30 cm²"
+      },
+      {
+        "id": "C",
+        "text": "60 cm²"
+      },
+      {
+        "id": "D",
+        "text": "120 cm²"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. L=½×10×6=30 cm².",
+      "Benar. L=½×10×6=30 cm².",
+      "Tidak sesuai. L=½×10×6=30 cm².",
+      "Tidak sesuai. L=½×10×6=30 cm²."
+    ],
+    "evidence": "Langkah: L=½×10×6=30 cm². Gunakan: Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "formula": "Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W14-3",
+    "group": "W",
+    "topic": "Keliling dan luas datar",
+    "topicId": "W14",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Keliling adalah panjang batas bangun; luas adalah ukuran daerah di dalamnya.",
+    "question": "Keliling persegi dengan sisi 7 cm adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 cm"
+      },
+      {
+        "id": "B",
+        "text": "21 cm"
+      },
+      {
+        "id": "C",
+        "text": "28 cm"
+      },
+      {
+        "id": "D",
+        "text": "49 cm"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. K=4×7=28 cm.",
+      "Tidak sesuai. K=4×7=28 cm.",
+      "Benar. K=4×7=28 cm.",
+      "Tidak sesuai. K=4×7=28 cm."
+    ],
+    "evidence": "Langkah: K=4×7=28 cm. Gunakan: Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "formula": "Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W15-1",
+    "group": "W",
+    "topic": "Volume dan luas permukaan",
+    "topicId": "W15",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Volume mengukur isi, sedangkan luas permukaan menjumlah luas sisi yang menutupi bangun.",
+    "question": "Balok 3 cm × 4 cm × 5 cm memiliki volume …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm³"
+      },
+      {
+        "id": "B",
+        "text": "47 cm³"
+      },
+      {
+        "id": "C",
+        "text": "60 cm³"
+      },
+      {
+        "id": "D",
+        "text": "94 cm³"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "12 adalah luas alas dalam cm², bukan volume.",
+      "47 bukan hasil perkalian tiga panjang.",
+      "Benar. V=3×4×5=60 cm³; 94 cm² adalah luas permukaan.",
+      "94 adalah luas permukaan dalam cm²."
+    ],
+    "evidence": "Langkah: V=3×4×5=60 cm³; 94 cm² adalah luas permukaan. Gunakan: Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "formula": "Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W15-2",
+    "group": "W",
+    "topic": "Volume dan luas permukaan",
+    "topicId": "W15",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Volume mengukur isi, sedangkan luas permukaan menjumlah luas sisi yang menutupi bangun.",
+    "question": "Tabung berjari-jari 2 cm dan tinggi 5 cm memiliki volume …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "10π cm³"
+      },
+      {
+        "id": "B",
+        "text": "20π cm³"
+      },
+      {
+        "id": "C",
+        "text": "25π cm³"
+      },
+      {
+        "id": "D",
+        "text": "40π cm³"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. V=πr²t=π×4×5=20π cm³.",
+      "Benar. V=πr²t=π×4×5=20π cm³.",
+      "Tidak sesuai. V=πr²t=π×4×5=20π cm³.",
+      "Tidak sesuai. V=πr²t=π×4×5=20π cm³."
+    ],
+    "evidence": "Langkah: V=πr²t=π×4×5=20π cm³. Gunakan: Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "formula": "Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W15-3",
+    "group": "W",
+    "topic": "Volume dan luas permukaan",
+    "topicId": "W15",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Volume mengukur isi, sedangkan luas permukaan menjumlah luas sisi yang menutupi bangun.",
+    "question": "Kubus dengan sisi 3 cm mempunyai luas permukaan …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 cm²"
+      },
+      {
+        "id": "B",
+        "text": "18 cm²"
+      },
+      {
+        "id": "C",
+        "text": "27 cm²"
+      },
+      {
+        "id": "D",
+        "text": "54 cm²"
+      }
+    ],
+    "key": [
+      "D"
+    ],
+    "reasons": [
+      "Tidak sesuai. Ada enam persegi: 6×3²=54 cm².",
+      "Tidak sesuai. Ada enam persegi: 6×3²=54 cm².",
+      "Tidak sesuai. Ada enam persegi: 6×3²=54 cm².",
+      "Benar. Ada enam persegi: 6×3²=54 cm²."
+    ],
+    "evidence": "Langkah: Ada enam persegi: 6×3²=54 cm². Gunakan: Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "formula": "Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W16-1",
+    "group": "W",
+    "topic": "Perbandingan trigonometri",
+    "topicId": "W16",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Perbandingan trigonometri membandingkan sisi dalam segitiga siku-siku terhadap sudut acuan.",
+    "question": "Sebuah segitiga siku-siku memiliki sisi depan θ = 3 dan sisi miring = 5. sin θ adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3/5"
+      },
+      {
+        "id": "B",
+        "text": "4/5"
+      },
+      {
+        "id": "C",
+        "text": "3/4"
+      },
+      {
+        "id": "D",
+        "text": "5/3"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Definisi sinus memberi 3/5. Sisi samping 4 hanya diperlukan untuk cos dan tan.",
+      "4/5 adalah cos θ.",
+      "3/4 adalah tan θ.",
+      "5/3 merupakan kebalikan sin θ."
+    ],
+    "evidence": "Langkah: Definisi sinus memberi 3/5. Sisi samping 4 hanya diperlukan untuk cos dan tan. Gunakan: sin θ=depan/miring; cos θ=samping/miring; tan θ=depan/samping",
+    "formula": "sin θ=depan/miring; cos θ=samping/miring; tan θ=depan/samping",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W16-2",
+    "group": "W",
+    "topic": "Perbandingan trigonometri",
+    "topicId": "W16",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Perbandingan trigonometri membandingkan sisi dalam segitiga siku-siku terhadap sudut acuan.",
+    "question": "Pada segitiga siku-siku, sisi samping θ=4 dan sisi miring 5. cos θ= …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3/5"
+      },
+      {
+        "id": "B",
+        "text": "4/5"
+      },
+      {
+        "id": "C",
+        "text": "3/4"
+      },
+      {
+        "id": "D",
+        "text": "5/4"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. cos θ=samping/miring=4/5.",
+      "Benar. cos θ=samping/miring=4/5.",
+      "Tidak sesuai. cos θ=samping/miring=4/5.",
+      "Tidak sesuai. cos θ=samping/miring=4/5."
+    ],
+    "evidence": "Langkah: cos θ=samping/miring=4/5. Gunakan: sin θ=depan/miring; cos θ=samping/miring; tan θ=depan/samping",
+    "formula": "sin θ=depan/miring; cos θ=samping/miring; tan θ=depan/samping",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W16-3",
+    "group": "W",
+    "topic": "Perbandingan trigonometri",
+    "topicId": "W16",
+    "difficulty": "Menantang",
+    "passage": "Konsep: Perbandingan trigonometri membandingkan sisi dalam segitiga siku-siku terhadap sudut acuan.",
+    "question": "Tangga 13 m bersandar pada dinding; kaki tangga 5 m dari dinding. Berapa sinus sudut antara tangga dan lantai?",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5/13"
+      },
+      {
+        "id": "B",
+        "text": "12/13"
+      },
+      {
+        "id": "C",
+        "text": "5/12"
+      },
+      {
+        "id": "D",
+        "text": "12/5"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Tinggi = √(13²−5²)=12 m. sin θ=tinggi/tangga=12/13.",
+      "Benar. Tinggi = √(13²−5²)=12 m. sin θ=tinggi/tangga=12/13.",
+      "Tidak sesuai. Tinggi = √(13²−5²)=12 m. sin θ=tinggi/tangga=12/13.",
+      "Tidak sesuai. Tinggi = √(13²−5²)=12 m. sin θ=tinggi/tangga=12/13."
+    ],
+    "evidence": "Tinggi = √(13²−5²)=12 m. sin θ=tinggi/tangga=12/13.",
+    "formula": "sin θ=depan/miring; cos θ=samping/miring; tan θ=depan/samping",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W17-1",
+    "group": "W",
+    "topic": "Diagram dan grafik",
+    "topicId": "W17",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Grafik dan tabel merangkum data dalam bentuk visual agar nilai dan perubahan dapat dibandingkan.",
+    "question": "Kunjungan perpustakaan Senin 20, Selasa 30, Rabu 50. Persentase Rabu dari total adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "40%"
+      },
+      {
+        "id": "C",
+        "text": "50%"
+      },
+      {
+        "id": "D",
+        "text": "60%"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "30% berasal dari jumlah Selasa dibagi total.",
+      "40% bukan 50/100.",
+      "Benar. Total 20+30+50=100, maka 50/100=50%.",
+      "60% bukan 50/100."
+    ],
+    "evidence": "Langkah: Total 20+30+50=100, maka 50/100=50%. Gunakan: Persentase bagian = bagian / total × 100%",
+    "formula": "Persentase bagian = bagian / total × 100%",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W17-2",
+    "group": "W",
+    "topic": "Diagram dan grafik",
+    "topicId": "W17",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Grafik dan tabel merangkum data dalam bentuk visual agar nilai dan perubahan dapat dibandingkan.",
+    "question": "Penjualan 40 naik menjadi 50. Persentase kenaikannya …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "10%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "25%"
+      },
+      {
+        "id": "D",
+        "text": "50%"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Kenaikan 10 dibanding awal 40: 10/40×100%=25%.",
+      "Tidak sesuai. Kenaikan 10 dibanding awal 40: 10/40×100%=25%.",
+      "Benar. Kenaikan 10 dibanding awal 40: 10/40×100%=25%.",
+      "Tidak sesuai. Kenaikan 10 dibanding awal 40: 10/40×100%=25%."
+    ],
+    "evidence": "Langkah: Kenaikan 10 dibanding awal 40: 10/40×100%=25%. Gunakan: Persentase bagian = bagian / total × 100%",
+    "formula": "Persentase bagian = bagian / total × 100%",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W17-3",
+    "group": "W",
+    "topic": "Diagram dan grafik",
+    "topicId": "W17",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Grafik dan tabel merangkum data dalam bentuk visual agar nilai dan perubahan dapat dibandingkan.",
+    "question": "Data peminjam buku: Senin 8, Selasa 12, Rabu 10. Jumlah selama tiga hari …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "28"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. 8+12+10=30.",
+      "Tidak sesuai. 8+12+10=30.",
+      "Benar. 8+12+10=30.",
+      "Tidak sesuai. 8+12+10=30."
+    ],
+    "evidence": "Langkah: 8+12+10=30. Gunakan: Persentase bagian = bagian / total × 100%",
+    "formula": "Persentase bagian = bagian / total × 100%",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W18-1",
+    "group": "W",
+    "topic": "Aturan pencacahan",
+    "topicId": "W18",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Aturan pencacahan menentukan banyak cara tanpa harus selalu menuliskan seluruh kemungkinan.",
+    "question": "Ada 3 baju dan 4 celana. Banyak pasangan satu baju dan satu celana adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "7 adalah jumlah pilihan baju dan celana, bukan pasangan.",
+      "Benar. Untuk masing-masing dari 3 baju ada 4 pilihan celana: 3×4=12.",
+      "24 dua kali banyak pasangan yang sebenarnya.",
+      "64 tidak mengikuti 3×4."
+    ],
+    "evidence": "Langkah: Untuk masing-masing dari 3 baju ada 4 pilihan celana: 3×4=12. Gunakan: Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "formula": "Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W18-2",
+    "group": "W",
+    "topic": "Aturan pencacahan",
+    "topicId": "W18",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Aturan pencacahan menentukan banyak cara tanpa harus selalu menuliskan seluruh kemungkinan.",
+    "question": "Ada 4 pilihan minuman dan 3 pilihan roti. Banyak pasangan satu minuman dan satu roti …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Aturan perkalian: 4×3=12.",
+      "Benar. Aturan perkalian: 4×3=12.",
+      "Tidak sesuai. Aturan perkalian: 4×3=12.",
+      "Tidak sesuai. Aturan perkalian: 4×3=12."
+    ],
+    "evidence": "Langkah: Aturan perkalian: 4×3=12. Gunakan: Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "formula": "Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W18-3",
+    "group": "W",
+    "topic": "Aturan pencacahan",
+    "topicId": "W18",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Aturan pencacahan menentukan banyak cara tanpa harus selalu menuliskan seluruh kemungkinan.",
+    "question": "Dari 5 siswa dipilih 2 sebagai tim tanpa urutan. Banyak cara …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. C(5,2)=5×4/2=10.",
+      "Benar. C(5,2)=5×4/2=10.",
+      "Tidak sesuai. C(5,2)=5×4/2=10.",
+      "Tidak sesuai. C(5,2)=5×4/2=10."
+    ],
+    "evidence": "Langkah: C(5,2)=5×4/2=10. Gunakan: Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "formula": "Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W19-1",
+    "group": "W",
+    "topic": "Statistika",
+    "topicId": "W19",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Rata-rata dan median mengukur pusat data; jangkauan menggambarkan selisih nilai terbesar dan terkecil.",
+    "question": "Rata-rata data 4, 6, 8, 10 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "28"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "6 bukan jumlah 28 dibagi 4.",
+      "Benar. Jumlah data 28 dan n=4, sehingga rata-rata 28/4=7.",
+      "8 bukan jumlah 28 dibagi 4.",
+      "28 adalah jumlah data, belum dibagi 4."
+    ],
+    "evidence": "Langkah: Jumlah data 28 dan n=4, sehingga rata-rata 28/4=7. Gunakan: x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "formula": "x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W19-2",
+    "group": "W",
+    "topic": "Statistika",
+    "topicId": "W19",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Rata-rata dan median mengukur pusat data; jangkauan menggambarkan selisih nilai terbesar dan terkecil.",
+    "question": "Median data 2, 3, 8, 9, 10 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Data sudah terurut dan nilai tengahnya 8.",
+      "Tidak sesuai. Data sudah terurut dan nilai tengahnya 8.",
+      "Benar. Data sudah terurut dan nilai tengahnya 8.",
+      "Tidak sesuai. Data sudah terurut dan nilai tengahnya 8."
+    ],
+    "evidence": "Langkah: Data sudah terurut dan nilai tengahnya 8. Gunakan: x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "formula": "x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W19-3",
+    "group": "W",
+    "topic": "Statistika",
+    "topicId": "W19",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Rata-rata dan median mengukur pusat data; jangkauan menggambarkan selisih nilai terbesar dan terkecil.",
+    "question": "Median data 1, 3, 5, 7 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Data genap: median=(3+5)/2=4.",
+      "Benar. Data genap: median=(3+5)/2=4.",
+      "Tidak sesuai. Data genap: median=(3+5)/2=4.",
+      "Tidak sesuai. Data genap: median=(3+5)/2=4."
+    ],
+    "evidence": "Langkah: Data genap: median=(3+5)/2=4. Gunakan: x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "formula": "x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W20-1",
+    "group": "W",
+    "topic": "Peluang kejadian tunggal",
+    "topicId": "W20",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Peluang mengukur kemungkinan kejadian; nilainya berada antara 0 dan 1.",
+    "question": "Satu dadu adil dilempar. Peluang muncul bilangan genap adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/6"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "2/3"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "1/6 menghitung hanya satu dari enam hasil.",
+      "1/3 menghitung dua dari enam hasil.",
+      "Benar. Hasil genap {2,4,6} berjumlah 3 dari 6 hasil: 3/6=1/2.",
+      "2/3 menghitung empat dari enam hasil."
+    ],
+    "evidence": "Langkah: Hasil genap {2,4,6} berjumlah 3 dari 6 hasil: 3/6=1/2. Gunakan: P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "formula": "P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W20-2",
+    "group": "W",
+    "topic": "Peluang kejadian tunggal",
+    "topicId": "W20",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Peluang mengukur kemungkinan kejadian; nilainya berada antara 0 dan 1.",
+    "question": "Satu dadu adil dilempar. Peluang muncul angka 5 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/6"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "5/6"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Satu hasil dari enam sama mungkin, jadi 1/6.",
+      "Tidak sesuai. Satu hasil dari enam sama mungkin, jadi 1/6.",
+      "Tidak sesuai. Satu hasil dari enam sama mungkin, jadi 1/6.",
+      "Tidak sesuai. Satu hasil dari enam sama mungkin, jadi 1/6."
+    ],
+    "evidence": "Langkah: Satu hasil dari enam sama mungkin, jadi 1/6. Gunakan: P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "formula": "P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W20-3",
+    "group": "W",
+    "topic": "Peluang kejadian tunggal",
+    "topicId": "W20",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Peluang mengukur kemungkinan kejadian; nilainya berada antara 0 dan 1.",
+    "question": "Kotak berisi 3 merah dan 2 biru. Peluang mengambil biru adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/5"
+      },
+      {
+        "id": "B",
+        "text": "2/5"
+      },
+      {
+        "id": "C",
+        "text": "3/5"
+      },
+      {
+        "id": "D",
+        "text": "2/3"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Ada 2 bola biru dari 5 bola: 2/5.",
+      "Benar. Ada 2 bola biru dari 5 bola: 2/5.",
+      "Tidak sesuai. Ada 2 bola biru dari 5 bola: 2/5.",
+      "Tidak sesuai. Ada 2 bola biru dari 5 bola: 2/5."
+    ],
+    "evidence": "Langkah: Ada 2 bola biru dari 5 bola: 2/5. Gunakan: P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "formula": "P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W21-1",
+    "group": "W",
+    "topic": "Peluang kejadian majemuk",
+    "topicId": "W21",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Kejadian majemuk menggabungkan dua kejadian dengan kata “atau” maupun “dan”.",
+    "question": "Dua koin adil dilempar. Peluang keduanya muncul gambar adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/4"
+      },
+      {
+        "id": "B",
+        "text": "1/3"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "3/4"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Empat hasil sama mungkin: GG, GA, AG, AA. Hanya GG sesuai: 1/4.",
+      "1/3 bukan proporsi satu dari empat hasil.",
+      "1/2 menghitung dua dari empat hasil.",
+      "3/4 menghitung tiga dari empat hasil."
+    ],
+    "evidence": "Langkah: Empat hasil sama mungkin: GG, GA, AG, AA. Hanya GG sesuai: 1/4. Gunakan: P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A)",
+    "formula": "P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W21-2",
+    "group": "W",
+    "topic": "Peluang kejadian majemuk",
+    "topicId": "W21",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Kejadian majemuk menggabungkan dua kejadian dengan kata “atau” maupun “dan”.",
+    "question": "Dua koin adil dilempar. Peluang sedikitnya satu gambar …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/4"
+      },
+      {
+        "id": "B",
+        "text": "1/2"
+      },
+      {
+        "id": "C",
+        "text": "3/4"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Komplemen tidak ada gambar adalah AA dengan peluang 1/4, jadi 3/4.",
+      "Tidak sesuai. Komplemen tidak ada gambar adalah AA dengan peluang 1/4, jadi 3/4.",
+      "Benar. Komplemen tidak ada gambar adalah AA dengan peluang 1/4, jadi 3/4.",
+      "Tidak sesuai. Komplemen tidak ada gambar adalah AA dengan peluang 1/4, jadi 3/4."
+    ],
+    "evidence": "Langkah: Komplemen tidak ada gambar adalah AA dengan peluang 1/4, jadi 3/4. Gunakan: P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A)",
+    "formula": "P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "W21-3",
+    "group": "W",
+    "topic": "Peluang kejadian majemuk",
+    "topicId": "W21",
+    "difficulty": "Menantang",
+    "passage": "Konsep: Kejadian majemuk menggabungkan dua kejadian dengan kata “atau” maupun “dan”.",
+    "question": "Kotak berisi 4 bola merah dan 3 biru. Dua bola diambil tanpa pengembalian. Peluang keduanya merah adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/7"
+      },
+      {
+        "id": "B",
+        "text": "4/7"
+      },
+      {
+        "id": "C",
+        "text": "1/3"
+      },
+      {
+        "id": "D",
+        "text": "16/49"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. P(merah pertama)=4/7. Sesudah itu tersisa 3 merah dari 6 bola, jadi (4/7)(3/6)=2/7.",
+      "Tidak sesuai. P(merah pertama)=4/7. Sesudah itu tersisa 3 merah dari 6 bola, jadi (4/7)(3/6)=2/7.",
+      "Tidak sesuai. P(merah pertama)=4/7. Sesudah itu tersisa 3 merah dari 6 bola, jadi (4/7)(3/6)=2/7.",
+      "Tidak sesuai. P(merah pertama)=4/7. Sesudah itu tersisa 3 merah dari 6 bola, jadi (4/7)(3/6)=2/7."
+    ],
+    "evidence": "P(merah pertama)=4/7. Sesudah itu tersisa 3 merah dari 6 bola, jadi (4/7)(3/6)=2/7.",
+    "formula": "P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A)",
+    "source": "Latihan orisinal"
+  }
+]

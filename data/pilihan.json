@@ -1,0 +1,842 @@
+[
+  {
+    "id": "L22-1",
+    "group": "L",
+    "topic": "Matriks",
+    "topicId": "L22",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Matriks menyusun bilangan dalam baris dan kolom; determinan menentukan keterbalikan matriks persegi.",
+    "question": "Determinan matriks [[2,1],[3,4]] adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "−5"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. det=2×4−1×3=5. Urutan pengurangan menentukan tanda.",
+      "8 hanya hasil kali diagonal utama.",
+      "11 menambahkan 8 dan 3, padahal harus dikurangkan.",
+      "−5 membalik urutan pengurangan."
+    ],
+    "evidence": "Langkah: det=2×4−1×3=5. Urutan pengurangan menentukan tanda. Gunakan: det [[a,b],[c,d]]=ad−bc; A⁻¹=[[d,−b],[−c,a]]/det A",
+    "formula": "det [[a,b],[c,d]]=ad−bc; A⁻¹=[[d,−b],[−c,a]]/det A",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L22-2",
+    "group": "L",
+    "topic": "Matriks",
+    "topicId": "L22",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Matriks menyusun bilangan dalam baris dan kolom; determinan menentukan keterbalikan matriks persegi.",
+    "question": "Determinan matriks [[3,2],[1,2]] adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. det=3×2−2×1=4.",
+      "Benar. det=3×2−2×1=4.",
+      "Tidak sesuai. det=3×2−2×1=4.",
+      "Tidak sesuai. det=3×2−2×1=4."
+    ],
+    "evidence": "Langkah: det=3×2−2×1=4. Gunakan: det [[a,b],[c,d]]=ad−bc; A⁻¹=[[d,−b],[−c,a]]/det A",
+    "formula": "det [[a,b],[c,d]]=ad−bc; A⁻¹=[[d,−b],[−c,a]]/det A",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L22-3",
+    "group": "L",
+    "topic": "Matriks",
+    "topicId": "L22",
+    "difficulty": "Menantang",
+    "passage": "Konsep: Matriks menyusun bilangan dalam baris dan kolom; determinan menentukan keterbalikan matriks persegi.",
+    "question": "Hitung determinan matriks [[1,2,0],[0,1,3],[2,0,1]].",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "14"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Ekspansi baris pertama: 1(1×1−3×0)−2(0×1−3×2)=1+12=13.",
+      "Tidak sesuai. Ekspansi baris pertama: 1(1×1−3×0)−2(0×1−3×2)=1+12=13.",
+      "Benar. Ekspansi baris pertama: 1(1×1−3×0)−2(0×1−3×2)=1+12=13.",
+      "Tidak sesuai. Ekspansi baris pertama: 1(1×1−3×0)−2(0×1−3×2)=1+12=13."
+    ],
+    "evidence": "Ekspansi baris pertama: 1(1×1−3×0)−2(0×1−3×2)=1+12=13.",
+    "formula": "det [[a,b],[c,d]]=ad−bc; A⁻¹=[[d,−b],[−c,a]]/det A",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L23-1",
+    "group": "L",
+    "topic": "Polinomial",
+    "topicId": "L23",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Polinomial adalah jumlah suku berpangkat bilangan bulat tak negatif. Teorema sisa menghubungkan pembagian dengan substitusi.",
+    "question": "Sisa pembagian P(x)=x²−3x+4 oleh x−2 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "0 tidak sama dengan P(2).",
+      "1 tidak sama dengan P(2).",
+      "Benar. P(2)=4−6+4=2. Jadi sisanya 2.",
+      "4 hanya hasil 2² dan mengabaikan suku lain."
+    ],
+    "evidence": "Langkah: P(2)=4−6+4=2. Jadi sisanya 2. Gunakan: Sisa P(x) dibagi x−a adalah P(a)",
+    "formula": "Sisa P(x) dibagi x−a adalah P(a)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L23-2",
+    "group": "L",
+    "topic": "Polinomial",
+    "topicId": "L23",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Polinomial adalah jumlah suku berpangkat bilangan bulat tak negatif. Teorema sisa menghubungkan pembagian dengan substitusi.",
+    "question": "Sisa P(x)=x²+1 dibagi x−3 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "key": [
+      "D"
+    ],
+    "reasons": [
+      "Tidak sesuai. Teorema sisa: P(3)=3²+1=10.",
+      "Tidak sesuai. Teorema sisa: P(3)=3²+1=10.",
+      "Tidak sesuai. Teorema sisa: P(3)=3²+1=10.",
+      "Benar. Teorema sisa: P(3)=3²+1=10."
+    ],
+    "evidence": "Langkah: Teorema sisa: P(3)=3²+1=10. Gunakan: Sisa P(x) dibagi x−a adalah P(a)",
+    "formula": "Sisa P(x) dibagi x−a adalah P(a)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L23-3",
+    "group": "L",
+    "topic": "Polinomial",
+    "topicId": "L23",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Polinomial adalah jumlah suku berpangkat bilangan bulat tak negatif. Teorema sisa menghubungkan pembagian dengan substitusi.",
+    "question": "Manakah faktor dari x²−4?",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "x−1"
+      },
+      {
+        "id": "B",
+        "text": "x+1"
+      },
+      {
+        "id": "C",
+        "text": "x−2"
+      },
+      {
+        "id": "D",
+        "text": "x−4"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. x²−4=(x−2)(x+2), sehingga x−2 faktor.",
+      "Tidak sesuai. x²−4=(x−2)(x+2), sehingga x−2 faktor.",
+      "Benar. x²−4=(x−2)(x+2), sehingga x−2 faktor.",
+      "Tidak sesuai. x²−4=(x−2)(x+2), sehingga x−2 faktor."
+    ],
+    "evidence": "Langkah: x²−4=(x−2)(x+2), sehingga x−2 faktor. Gunakan: Sisa P(x) dibagi x−a adalah P(a)",
+    "formula": "Sisa P(x) dibagi x−a adalah P(a)",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L24-1",
+    "group": "L",
+    "topic": "Fungsi lanjut dan domain",
+    "topicId": "L24",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Domain adalah himpunan input yang membuat fungsi terdefinisi; range adalah himpunan output yang dihasilkan.",
+    "question": "Domain f(x)=1/(x−2) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "x>2"
+      },
+      {
+        "id": "B",
+        "text": "x≥2"
+      },
+      {
+        "id": "C",
+        "text": "x≠2"
+      },
+      {
+        "id": "D",
+        "text": "semua real"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "x>2 membuang semua x<2 yang sebenarnya boleh.",
+      "x≥2 memasukkan x=2 yang membuat penyebut nol.",
+      "Benar. Penyebut x−2 tidak boleh nol, jadi semua bilangan real kecuali 2.",
+      "Semua real keliru karena x=2 tidak boleh."
+    ],
+    "evidence": "Langkah: Penyebut x−2 tidak boleh nol, jadi semua bilangan real kecuali 2. Gunakan: Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "formula": "Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L24-2",
+    "group": "L",
+    "topic": "Fungsi lanjut dan domain",
+    "topicId": "L24",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Domain adalah himpunan input yang membuat fungsi terdefinisi; range adalah himpunan output yang dihasilkan.",
+    "question": "Domain √(x−3) pada bilangan real adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "x<3"
+      },
+      {
+        "id": "B",
+        "text": "x≤3"
+      },
+      {
+        "id": "C",
+        "text": "x≥3"
+      },
+      {
+        "id": "D",
+        "text": "x≠3"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Isi akar harus ≥0: x−3≥0 sehingga x≥3.",
+      "Tidak sesuai. Isi akar harus ≥0: x−3≥0 sehingga x≥3.",
+      "Benar. Isi akar harus ≥0: x−3≥0 sehingga x≥3.",
+      "Tidak sesuai. Isi akar harus ≥0: x−3≥0 sehingga x≥3."
+    ],
+    "evidence": "Langkah: Isi akar harus ≥0: x−3≥0 sehingga x≥3. Gunakan: Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "formula": "Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L24-3",
+    "group": "L",
+    "topic": "Fungsi lanjut dan domain",
+    "topicId": "L24",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Domain adalah himpunan input yang membuat fungsi terdefinisi; range adalah himpunan output yang dihasilkan.",
+    "question": "Jika f(x)=2ˣ, maka f(3)= …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. 2³=2×2×2=8.",
+      "Tidak sesuai. 2³=2×2×2=8.",
+      "Benar. 2³=2×2×2=8.",
+      "Tidak sesuai. 2³=2×2×2=8."
+    ],
+    "evidence": "Langkah: 2³=2×2×2=8. Gunakan: Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "formula": "Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L25-1",
+    "group": "L",
+    "topic": "Vektor",
+    "topicId": "L25",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Vektor memiliki besar dan arah; komponen menyatakan perpindahan pada masing-masing sumbu.",
+    "question": "Panjang vektor (3,4) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Panjang = √(3²+4²)=√25=5.",
+      "7 adalah jumlah komponen, bukan panjang.",
+      "12 adalah hasil kali komponen, bukan panjang.",
+      "25 adalah kuadrat panjang, bukan panjang."
+    ],
+    "evidence": "Langkah: Panjang = √(3²+4²)=√25=5. Gunakan: |(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "formula": "|(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L25-2",
+    "group": "L",
+    "topic": "Vektor",
+    "topicId": "L25",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Vektor memiliki besar dan arah; komponen menyatakan perpindahan pada masing-masing sumbu.",
+    "question": "Jika u=(1,2) dan v=(3,−1), maka u+v= …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4,1)"
+      },
+      {
+        "id": "B",
+        "text": "(2,3)"
+      },
+      {
+        "id": "C",
+        "text": "(3,2)"
+      },
+      {
+        "id": "D",
+        "text": "(4,−1)"
+      }
+    ],
+    "key": [
+      "A"
+    ],
+    "reasons": [
+      "Benar. Jumlah per komponen: (1+3,2−1)=(4,1).",
+      "Tidak sesuai. Jumlah per komponen: (1+3,2−1)=(4,1).",
+      "Tidak sesuai. Jumlah per komponen: (1+3,2−1)=(4,1).",
+      "Tidak sesuai. Jumlah per komponen: (1+3,2−1)=(4,1)."
+    ],
+    "evidence": "Langkah: Jumlah per komponen: (1+3,2−1)=(4,1). Gunakan: |(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "formula": "|(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L25-3",
+    "group": "L",
+    "topic": "Vektor",
+    "topicId": "L25",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Vektor memiliki besar dan arah; komponen menyatakan perpindahan pada masing-masing sumbu.",
+    "question": "Panjang vektor (5,12) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "13"
+      },
+      {
+        "id": "C",
+        "text": "17"
+      },
+      {
+        "id": "D",
+        "text": "169"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. √(5²+12²)=13.",
+      "Benar. √(5²+12²)=13.",
+      "Tidak sesuai. √(5²+12²)=13.",
+      "Tidak sesuai. √(5²+12²)=13."
+    ],
+    "evidence": "Langkah: √(5²+12²)=13. Gunakan: |(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "formula": "|(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L26-1",
+    "group": "L",
+    "topic": "Lingkaran analitik",
+    "topicId": "L26",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Persamaan lingkaran menggambarkan titik berjarak tetap dari satu pusat.",
+    "question": "Pusat lingkaran (x−2)²+(y+3)²=16 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2,3)"
+      },
+      {
+        "id": "B",
+        "text": "(−2,3)"
+      },
+      {
+        "id": "C",
+        "text": "(2,−3)"
+      },
+      {
+        "id": "D",
+        "text": "(−2,−3)"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tanda koordinat y seharusnya negatif.",
+      "Tanda koordinat x dan y terbalik.",
+      "Benar. Bandingkan dengan (x−a)²+(y−b)²=r². Pusatnya (2,−3), r=4.",
+      "Tanda koordinat x seharusnya positif."
+    ],
+    "evidence": "Langkah: Bandingkan dengan (x−a)²+(y−b)²=r². Pusatnya (2,−3), r=4. Gunakan: (x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "formula": "(x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L26-2",
+    "group": "L",
+    "topic": "Lingkaran analitik",
+    "topicId": "L26",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Persamaan lingkaran menggambarkan titik berjarak tetap dari satu pusat.",
+    "question": "Persamaan lingkaran berpusat O berjari-jari 3 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "x²+y²=3"
+      },
+      {
+        "id": "B",
+        "text": "x²+y²=6"
+      },
+      {
+        "id": "C",
+        "text": "x²+y²=9"
+      },
+      {
+        "id": "D",
+        "text": "x²+y²=18"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Pusat O dan r=3 memberi x²+y²=r²=9.",
+      "Tidak sesuai. Pusat O dan r=3 memberi x²+y²=r²=9.",
+      "Benar. Pusat O dan r=3 memberi x²+y²=r²=9.",
+      "Tidak sesuai. Pusat O dan r=3 memberi x²+y²=r²=9."
+    ],
+    "evidence": "Langkah: Pusat O dan r=3 memberi x²+y²=r²=9. Gunakan: (x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "formula": "(x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L26-3",
+    "group": "L",
+    "topic": "Lingkaran analitik",
+    "topicId": "L26",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Persamaan lingkaran menggambarkan titik berjarak tetap dari satu pusat.",
+    "question": "Jari-jari (x+1)²+(y−2)²=25 adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. r²=25 dan r≥0, sehingga r=5.",
+      "Tidak sesuai. r²=25 dan r≥0, sehingga r=5.",
+      "Benar. r²=25 dan r≥0, sehingga r=5.",
+      "Tidak sesuai. r²=25 dan r≥0, sehingga r=5."
+    ],
+    "evidence": "Langkah: r²=25 dan r≥0, sehingga r=5. Gunakan: (x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "formula": "(x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L27-1",
+    "group": "L",
+    "topic": "Transformasi lanjut",
+    "topicId": "L27",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Transformasi dapat dinyatakan dengan matriks dan dikomposisikan secara berurutan.",
+    "question": "Bangun luas 6 satuan² didilatasi dengan faktor 3. Luas bayangan adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "18"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "108"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "18 memakai faktor panjang 3, bukan faktor luas 3².",
+      "27 bukan hasil 6×9.",
+      "Benar. Luas berubah dengan faktor 3²=9, jadi 6×9=54 satuan².",
+      "108 dua kali hasil yang benar."
+    ],
+    "evidence": "Langkah: Luas berubah dengan faktor 3²=9, jadi 6×9=54 satuan². Gunakan: Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "formula": "Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L27-2",
+    "group": "L",
+    "topic": "Transformasi lanjut",
+    "topicId": "L27",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Transformasi dapat dinyatakan dengan matriks dan dikomposisikan secara berurutan.",
+    "question": "Dilatasi faktor 2 mengubah luas bangun 5 menjadi …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "25"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Luas dikali 2², sehingga 5×4=20.",
+      "Tidak sesuai. Luas dikali 2², sehingga 5×4=20.",
+      "Benar. Luas dikali 2², sehingga 5×4=20.",
+      "Tidak sesuai. Luas dikali 2², sehingga 5×4=20."
+    ],
+    "evidence": "Langkah: Luas dikali 2², sehingga 5×4=20. Gunakan: Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "formula": "Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L27-3",
+    "group": "L",
+    "topic": "Transformasi lanjut",
+    "topicId": "L27",
+    "difficulty": "Menengah",
+    "passage": "Konsep: Transformasi dapat dinyatakan dengan matriks dan dikomposisikan secara berurutan.",
+    "question": "Rotasi 90° berlawanan jarum jam terhadap O memetakan (2,1) ke …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1,−2)"
+      },
+      {
+        "id": "B",
+        "text": "(−1,2)"
+      },
+      {
+        "id": "C",
+        "text": "(−2,−1)"
+      },
+      {
+        "id": "D",
+        "text": "(2,−1)"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Aturan (x,y)↦(−y,x), jadi (−1,2).",
+      "Benar. Aturan (x,y)↦(−y,x), jadi (−1,2).",
+      "Tidak sesuai. Aturan (x,y)↦(−y,x), jadi (−1,2).",
+      "Tidak sesuai. Aturan (x,y)↦(−y,x), jadi (−1,2)."
+    ],
+    "evidence": "Langkah: Aturan (x,y)↦(−y,x), jadi (−1,2). Gunakan: Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "formula": "Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L28-1",
+    "group": "L",
+    "topic": "Limit aljabar dan trigonometri",
+    "topicId": "L28",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Limit mendeskripsikan nilai yang didekati fungsi ketika input mendekati suatu titik.",
+    "question": "Nilai lim x→2 (x²−4)/(x−2) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "tidak ada"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "0 muncul jika 0/0 diperlakukan sebagai nol, padahal bentuk itu tak tentu.",
+      "2 adalah nilai x yang didekati, bukan hasil limit.",
+      "Benar. Faktorkan (x−2)(x+2), sederhanakan untuk x≠2, lalu limit x+2=4.",
+      "Limit ada karena fungsi yang disederhanakan mendekati 4."
+    ],
+    "evidence": "Langkah: Faktorkan (x−2)(x+2), sederhanakan untuk x≠2, lalu limit x+2=4. Gunakan: lim x→a (x²−a²)/(x−a)=2a; lim x→0 sin x/x=1",
+    "formula": "lim x→a (x²−a²)/(x−a)=2a; lim x→0 sin x/x=1",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L28-2",
+    "group": "L",
+    "topic": "Limit aljabar dan trigonometri",
+    "topicId": "L28",
+    "difficulty": "Dasar",
+    "passage": "Konsep: Limit mendeskripsikan nilai yang didekati fungsi ketika input mendekati suatu titik.",
+    "question": "Nilai lim x→3 (x²−9)/(x−3) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "key": [
+      "C"
+    ],
+    "reasons": [
+      "Tidak sesuai. Faktorkan (x−3)(x+3), hasil limit 3+3=6.",
+      "Tidak sesuai. Faktorkan (x−3)(x+3), hasil limit 3+3=6.",
+      "Benar. Faktorkan (x−3)(x+3), hasil limit 3+3=6.",
+      "Tidak sesuai. Faktorkan (x−3)(x+3), hasil limit 3+3=6."
+    ],
+    "evidence": "Langkah: Faktorkan (x−3)(x+3), hasil limit 3+3=6. Gunakan: lim x→a (x²−a²)/(x−a)=2a; lim x→0 sin x/x=1",
+    "formula": "lim x→a (x²−a²)/(x−a)=2a; lim x→0 sin x/x=1",
+    "source": "Latihan orisinal"
+  },
+  {
+    "id": "L28-3",
+    "group": "L",
+    "topic": "Limit aljabar dan trigonometri",
+    "topicId": "L28",
+    "difficulty": "Menantang",
+    "passage": "Konsep: Limit mendeskripsikan nilai yang didekati fungsi ketika input mendekati suatu titik.",
+    "question": "Nilai lim x→4 (√x−2)/(x−4) adalah …",
+    "mode": "single",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "key": [
+      "B"
+    ],
+    "reasons": [
+      "Tidak sesuai. Kalikan pembilang dan penyebut dengan √x+2. Hasilnya 1/(√x+2), sehingga limitnya 1/4.",
+      "Benar. Kalikan pembilang dan penyebut dengan √x+2. Hasilnya 1/(√x+2), sehingga limitnya 1/4.",
+      "Tidak sesuai. Kalikan pembilang dan penyebut dengan √x+2. Hasilnya 1/(√x+2), sehingga limitnya 1/4.",
+      "Tidak sesuai. Kalikan pembilang dan penyebut dengan √x+2. Hasilnya 1/(√x+2), sehingga limitnya 1/4."
+    ],
+    "evidence": "Kalikan pembilang dan penyebut dengan √x+2. Hasilnya 1/(√x+2), sehingga limitnya 1/4.",
+    "formula": "lim x→a (x²−a²)/(x−a)=2a; lim x→0 sin x/x=1",
+    "source": "Latihan orisinal"
+  }
+]

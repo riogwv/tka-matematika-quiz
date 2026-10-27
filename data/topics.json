@@ -1,0 +1,562 @@
+[
+  {
+    "id": "W01",
+    "group": "W",
+    "title": "Himpunan",
+    "definition": "Himpunan adalah kumpulan objek yang anggotanya terdefinisi jelas. Gabungan memuat anggota yang ada pada sedikitnya satu himpunan; irisan memuat anggota keduanya.",
+    "formula": "n(A∪B) = n(A)+n(B)−n(A∩B)",
+    "symbols": "n(A) dan n(B) adalah jumlah anggota; n(A∩B) jumlah anggota bersama. Rumus pencacahan berlaku untuk himpunan berhingga.",
+    "stem": "Tanda ∪, ∩, banyak anggota, irisan dua kelompok.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Buat diagram Venn dan periksa 26 ≤ 30.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Gabungan: setidaknya satu; irisan: keduanya. Hindari menghitung anggota bersama dua kali.",
+    "tip": "Buat diagram Venn dan periksa 26 ≤ 30.",
+    "example": "Dari 30 siswa, 18 suka matematika, 15 suka bahasa Inggris, dan 7 suka keduanya. Berapa siswa menyukai setidaknya satu?",
+    "solution": "18 + 15 − 7 = 26. Irisan dikurangi sekali karena terhitung dua kali.",
+    "source": "PDF Wajib 2025, hlm. 1; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W02",
+    "group": "W",
+    "title": "Bilangan real dan pangkat",
+    "definition": "Bilangan real mencakup rasional dan irasional. Pangkat menyatakan perkalian berulang; akar kuadrat utama bernilai tidak negatif.",
+    "formula": "aᵐaⁿ = aᵐ⁺ⁿ; a⁻ⁿ = 1/aⁿ; √(a²) = |a|",
+    "symbols": "a basis dan m,n eksponen. a≠0 jika berpangkat negatif; untuk akar genap real, isi akar harus ≥0.",
+    "stem": "Eksponen negatif, pecahan, bentuk akar, urutan operasi.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Pangkat negatif berarti kebalikan, bukan hasil negatif.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Untuk pangkat negatif, a ≠ 0. Penyebut tidak boleh nol.",
+    "tip": "Pangkat negatif berarti kebalikan, bukan hasil negatif.",
+    "example": "Nilai 2⁻² + √36 adalah …",
+    "solution": "2⁻² = 1/4 dan √36 = 6, sehingga hasilnya 6¼.",
+    "source": "PDF Wajib 2025, hlm. 2–3; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W03",
+    "group": "W",
+    "title": "Fungsi dan invers",
+    "definition": "Fungsi memasangkan setiap input tepat satu output. Fungsi invers mengembalikan output ke input.",
+    "formula": "f⁻¹ membalikkan pemetaan; f⁻¹(f(x)) = x",
+    "symbols": "f⁻¹ merupakan invers, bukan 1/f. Untuk invers fungsi yang menyeluruh, f harus bijektif pada domain dan kodomainnya.",
+    "stem": "Nilai input dicari dari output atau ada notasi f⁻¹.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Cari input yang menghasilkan 7.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Invers sebagai fungsi memerlukan pemetaan satu-satu dan pada kodomain yang sesuai.",
+    "tip": "Cari input yang menghasilkan 7.",
+    "example": "Jika f(x) = 3x − 5, maka f⁻¹(7) = …",
+    "solution": "Misalkan 3x − 5 = 7. Maka 3x = 12 dan x = 4. Cek f(4)=7.",
+    "source": "PDF Wajib 2025, hlm. 4; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W04",
+    "group": "W",
+    "title": "Komposisi fungsi",
+    "definition": "Komposisi memasukkan keluaran fungsi dalam sebagai masukan fungsi luar.",
+    "formula": "(f ∘ g)(x) = f(g(x))",
+    "symbols": "Terapkan g dahulu pada f∘g. Komposisi terdefinisi bila keluaran g termasuk domain f.",
+    "stem": "Ada f(g(x)), g(f(x)), atau proses bertahap.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Kerjakan fungsi paling dalam lebih dulu.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Urutan menentukan hasil; pastikan nilai g(x) berada pada domain f.",
+    "tip": "Kerjakan fungsi paling dalam lebih dulu.",
+    "example": "f(x)=2x+1 dan g(x)=x². Nilai (f ∘ g)(3) adalah …",
+    "solution": "g(3)=9, lalu f(9)=19. Nilai 49 berasal dari urutan g(f(3)).",
+    "source": "PDF Wajib 2025, hlm. 5; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W05",
+    "group": "W",
+    "title": "Barisan dan deret aritmetika",
+    "definition": "Barisan aritmetika memiliki beda tetap; deret adalah jumlah suku-sukunya.",
+    "formula": "Uₙ = a+(n−1)b; Sₙ = n[2a+(n−1)b]/2",
+    "symbols": "a suku pertama, b beda, n nomor/banyak suku, Uₙ suku ke-n, Sₙ jumlah n suku.",
+    "stem": "Kenaikan tetap setiap langkah, posisi suku, jumlah beberapa suku.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Ada n−1 lompatan dari suku pertama.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "a suku pertama, b beda, n bilangan bulat positif.",
+    "tip": "Ada n−1 lompatan dari suku pertama.",
+    "example": "Barisan 4, 7, 10, … memiliki suku ke-8 sebesar …",
+    "solution": "a=4 dan b=3. U₈=4+7(3)=25.",
+    "source": "PDF Wajib 2025, hlm. 6; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W06",
+    "group": "W",
+    "title": "Barisan dan deret geometri",
+    "definition": "Barisan geometri memiliki rasio tetap antara dua suku berurutan. Deret geometri menjumlahkan suku-suku tersebut.",
+    "formula": "Uₙ = arⁿ⁻¹; Sₙ = a(rⁿ−1)/(r−1), r ≠ 1",
+    "symbols": "a suku awal, r rasio, n banyak suku; rumus pecahan untuk Sₙ berlaku jika r≠1.",
+    "stem": "Tumbuh atau berkurang dengan faktor atau persentase tetap.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Tulis beberapa suku untuk mengecek rasio.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "a suku pertama dan r rasio. Jika r=1, Sₙ=na.",
+    "tip": "Tulis beberapa suku untuk mengecek rasio.",
+    "example": "Jumlah empat suku pertama 3, 6, 12, … adalah …",
+    "solution": "3+6+12+24=45. Atau S₄=3(16−1)/(2−1)=45.",
+    "source": "PDF Wajib 2025, hlm. 7; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W07",
+    "group": "W",
+    "title": "Sistem pertidaksamaan linear",
+    "definition": "Setiap pertidaksamaan membatasi wilayah; solusi sistem adalah irisan semua wilayah.",
+    "formula": "Daerah solusi memenuhi semua pertidaksamaan sekaligus",
+    "symbols": "Garis penuh berarti batas termasuk (≤ atau ≥); garis putus-putus berarti batas tidak termasuk (< atau >).",
+    "stem": "Ada batas minimum/maksimum dan beberapa syarat sekaligus.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Uji setiap titik pada semua batas.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Balik tanda jika kedua sisi dikalikan atau dibagi bilangan negatif.",
+    "tip": "Uji setiap titik pada semua batas.",
+    "example": "Titik mana yang memenuhi x≥0, y≥0, dan x+y≤5?",
+    "solution": "(2,3) tidak negatif dan 2+3=5. Tiga titik lain melanggar sedikitnya satu syarat.",
+    "source": "PDF Wajib 2025, hlm. 8; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W08",
+    "group": "W",
+    "title": "SPLTV",
+    "definition": "SPLTV terdiri dari persamaan linear dengan tiga variabel. Solusinya memenuhi semua persamaan bersamaan.",
+    "formula": "Eliminasi satu variabel untuk memperoleh dua persamaan dua variabel",
+    "symbols": "Eliminasi satu variabel dari dua pasangan, selesaikan sistem dua variabel, lalu substitusi kembali.",
+    "stem": "Tiga besaran tidak diketahui dan beberapa hubungan jumlah atau selisih.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Manfaatkan persamaan sederhana terlebih dahulu.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Substitusi kembali ke semua persamaan semula.",
+    "tip": "Manfaatkan persamaan sederhana terlebih dahulu.",
+    "example": "x+y+z=6, x−y=0, dan z=2. Nilai x adalah …",
+    "solution": "z=2 memberi x+y=4; x=y sehingga 2x=4 dan x=2. Cek 2+2+2=6.",
+    "source": "PDF Wajib 2025, hlm. 9; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W09",
+    "group": "W",
+    "title": "Sudut, garis, dan bidang",
+    "definition": "Garis sejajar tidak berpotongan dalam satu bidang; garis berpotongan membentuk sudut bertolak belakang dan berpelurus.",
+    "formula": "Sudut pada garis lurus 180°; jumlah sudut segitiga 180°",
+    "symbols": "Sudut berpelurus berjumlah 180°. Aturan sudut sehadap sama memerlukan dua garis sejajar.",
+    "stem": "Sudut berpelurus, sehadap, dalam berseberangan, garis atau bidang.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Kenali apakah sudut berada dalam segitiga.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Sudut sehadap sama hanya jika dua garis sejajar dipotong transversal.",
+    "tip": "Kenali apakah sudut berada dalam segitiga.",
+    "example": "Dua sudut dalam segitiga 50° dan 65°. Sudut ketiga adalah …",
+    "solution": "180°−50°−65°=65°. Periksa jumlah ketiganya 180°.",
+    "source": "PDF Wajib 2025, hlm. 10–11; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W10",
+    "group": "W",
+    "title": "Kesebangunan dan kekongruenan",
+    "definition": "Bangun sebangun mempunyai sudut bersesuaian sama dan rasio sisi bersesuaian tetap. Kongruen berarti sebangun dengan ukuran sama.",
+    "formula": "Sisi bersesuaian bangun sebangun memiliki rasio tetap",
+    "symbols": "Rasio sisi = k, rasio luas = k². Cocokkan urutan titik sebelum membuat perbandingan.",
+    "stem": "Ada dua bangun serupa, skala, sisi bersesuaian, atau panjang belum diketahui.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Pasangkan sisi bersesuaian terlebih dahulu.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Bangun kongruen memiliki bentuk dan ukuran yang sama.",
+    "tip": "Pasangkan sisi bersesuaian terlebih dahulu.",
+    "example": "Segitiga kecil sebangun dengan segitiga besar. Sisi 4 cm bersesuaian 10 cm; sisi 6 cm bersesuaian dengan …",
+    "solution": "Faktor skala 10/4=2,5 sehingga 6×2,5=15 cm.",
+    "source": "PDF Wajib 2025, hlm. 12; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W11",
+    "group": "W",
+    "title": "Teorema Pythagoras",
+    "definition": "Teorema Pythagoras menghubungkan dua sisi siku-siku dan sisi miring.",
+    "formula": "a²+b²=c² dengan c sisi miring",
+    "symbols": "a,b adalah sisi siku-siku; c sisi miring. c²=a²+b² dan c>0.",
+    "stem": "Diketahui dua sisi segitiga siku-siku atau diagonal persegi panjang.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Cari sisi miring sebelum substitusi.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Berlaku pada segitiga siku-siku. c adalah sisi terpanjang.",
+    "tip": "Cari sisi miring sebelum substitusi.",
+    "example": "Segitiga siku-siku memiliki kaki 6 cm dan 8 cm. Sisi miringnya …",
+    "solution": "c²=36+64=100, jadi c=10 cm. Nilai 100 adalah kuadrat panjang, bukan panjang.",
+    "source": "PDF Wajib 2025, hlm. 13; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W12",
+    "group": "W",
+    "title": "Transformasi geometri",
+    "definition": "Transformasi memetakan titik menjadi bayangan melalui translasi, refleksi, rotasi, atau dilatasi.",
+    "formula": "T(a,b): (x,y)↦(x+a,y+b); refleksi sumbu-x: (x,−y)",
+    "symbols": "(a,b) vektor translasi; k faktor dilatasi. Urutan transformasi harus diikuti.",
+    "stem": "Titik awal, pusat, arah rotasi, faktor skala, atau komposisi.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Perlakukan koordinat x dan y terpisah.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Urutan komposisi transformasi penting; rotasi bergantung pusat dan arah.",
+    "tip": "Perlakukan koordinat x dan y terpisah.",
+    "example": "Titik (2,−1) ditranslasi oleh (3,4). Bayangannya …",
+    "solution": "Tambahkan komponen: (2+3,−1+4)=(5,3).",
+    "source": "PDF Wajib 2025, hlm. 14–16; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W13",
+    "group": "W",
+    "title": "Jarak dua titik dan ruang",
+    "definition": "Jarak dua titik adalah panjang ruas yang menghubungkannya; koordinat membentuk segitiga siku-siku.",
+    "formula": "d = √[(x₂−x₁)²+(y₂−y₁)²]",
+    "symbols": "Untuk ruang: d=√[(Δx)²+(Δy)²+(Δz)²]. Pastikan satuan koordinat sama.",
+    "stem": "Dua titik pada bidang atau ruang, diagonal, jarak.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Sketsa segitiga siku-siku dari selisih koordinat.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Untuk ruang tiga dimensi tambahkan (z₂−z₁)².",
+    "tip": "Sketsa segitiga siku-siku dari selisih koordinat.",
+    "example": "Jarak A(1,2) ke B(4,6) adalah …",
+    "solution": "Selisih koordinat 3 dan 4; d=√(9+16)=5.",
+    "source": "PDF Wajib 2025, hlm. 17; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W14",
+    "group": "W",
+    "title": "Keliling dan luas datar",
+    "definition": "Keliling adalah panjang batas bangun; luas adalah ukuran daerah di dalamnya.",
+    "formula": "Persegi panjang L=pℓ, K=2(p+ℓ); segitiga L=½at",
+    "symbols": "p panjang, ℓ lebar, a alas, t tinggi, r jari-jari. Luas menggunakan satuan².",
+    "stem": "Pagar atau bingkai mengarah ke keliling; penutup permukaan ke luas.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Bedakan panjang batas dari luas daerah.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Satuan luas berbentuk kuadrat; tinggi harus tegak lurus alas.",
+    "tip": "Bedakan panjang batas dari luas daerah.",
+    "example": "Persegi panjang panjang 8 cm dan lebar 5 cm. Luasnya …",
+    "solution": "L=8×5=40 cm². 26 cm adalah keliling, bukan luas.",
+    "source": "PDF Wajib 2025, hlm. 18–20; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W15",
+    "group": "W",
+    "title": "Volume dan luas permukaan",
+    "definition": "Volume mengukur isi, sedangkan luas permukaan menjumlah luas sisi yang menutupi bangun.",
+    "formula": "Balok V=pℓt; L=2(pℓ+pt+ℓt)",
+    "symbols": "Balok V=pℓt. Tabung tertutup L=2πr(r+t), V=πr²t. Sesuaikan jika ada sisi terbuka.",
+    "stem": "Pengisian, kapasitas, selimut atau seluruh permukaan.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Tentukan apakah yang diminta isi atau permukaan.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Volume bersatuan kubik dan luas bersatuan kuadrat.",
+    "tip": "Tentukan apakah yang diminta isi atau permukaan.",
+    "example": "Balok 3 cm × 4 cm × 5 cm memiliki volume …",
+    "solution": "V=3×4×5=60 cm³; 94 cm² adalah luas permukaan.",
+    "source": "PDF Wajib 2025, hlm. 21–23; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W16",
+    "group": "W",
+    "title": "Perbandingan trigonometri",
+    "definition": "Perbandingan trigonometri membandingkan sisi dalam segitiga siku-siku terhadap sudut acuan.",
+    "formula": "sin θ=depan/miring; cos θ=samping/miring; tan θ=depan/samping",
+    "symbols": "θ adalah sudut acuan. Hipotenusa sisi di depan sudut siku-siku; sisi depan θ dapat berubah ketika θ berubah.",
+    "stem": "Tinggi, jarak, sisi depan/samping, dan sudut elevasi.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Tandai sudut sebelum menentukan sisi.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Hubungan sisi depan dan samping bergantung pada sudut θ.",
+    "tip": "Tandai sudut sebelum menentukan sisi.",
+    "example": "Sebuah segitiga siku-siku memiliki sisi depan θ = 3 dan sisi miring = 5. sin θ adalah …",
+    "solution": "Definisi sinus memberi 3/5. Sisi samping 4 hanya diperlukan untuk cos dan tan.",
+    "source": "PDF Wajib 2025, hlm. 24; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W17",
+    "group": "W",
+    "title": "Diagram dan grafik",
+    "definition": "Grafik dan tabel merangkum data dalam bentuk visual agar nilai dan perubahan dapat dibandingkan.",
+    "formula": "Persentase bagian = bagian / total × 100%",
+    "symbols": "Persentase bagian menggunakan total yang relevan; persentase perubahan menggunakan nilai awal sebagai pembagi.",
+    "stem": "Diagram batang, garis, tabel, proporsi, perubahan.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Hitung total sebelum menentukan proporsi.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Periksa label sumbu, satuan, skala, dan apakah diagram menunjukkan total atau perubahan.",
+    "tip": "Hitung total sebelum menentukan proporsi.",
+    "example": "Kunjungan perpustakaan Senin 20, Selasa 30, Rabu 50. Persentase Rabu dari total adalah …",
+    "solution": "Total 20+30+50=100, maka 50/100=50%.",
+    "source": "PDF Wajib 2025, hlm. 25; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W18",
+    "group": "W",
+    "title": "Aturan pencacahan",
+    "definition": "Aturan pencacahan menentukan banyak cara tanpa harus selalu menuliskan seluruh kemungkinan.",
+    "formula": "Aturan perkalian m×n; C(n,r)=n!/[r!(n−r)!]",
+    "symbols": "Jumlahkan alternatif yang saling lepas; kalikan pilihan bertahap. Permutasi memperhatikan urutan, kombinasi tidak.",
+    "stem": "Pilihan bertahap, susunan, pemilihan anggota, dengan/tanpa pengulangan.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Gunakan perkalian untuk pilihan berurutan.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Pilihan tahap harus dihitung sesuai syarat; kombinasi tidak memperhatikan urutan.",
+    "tip": "Gunakan perkalian untuk pilihan berurutan.",
+    "example": "Ada 3 baju dan 4 celana. Banyak pasangan satu baju dan satu celana adalah …",
+    "solution": "Untuk masing-masing dari 3 baju ada 4 pilihan celana: 3×4=12.",
+    "source": "PDF Wajib 2025, hlm. 26; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W19",
+    "group": "W",
+    "title": "Statistika",
+    "definition": "Rata-rata dan median mengukur pusat data; jangkauan menggambarkan selisih nilai terbesar dan terkecil.",
+    "formula": "x̄=Σx/n; median adalah nilai tengah setelah data diurutkan",
+    "symbols": "x̄=Σx/n untuk n>0. Urutkan data sebelum median; untuk frekuensi gunakan Σfx/Σf.",
+    "stem": "Kumpulan data, nilai yang hilang, frekuensi, median atau rata-rata.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Tulis jumlah dan banyak data secara terpisah.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Jika n genap, median adalah rata-rata dua nilai tengah.",
+    "tip": "Tulis jumlah dan banyak data secara terpisah.",
+    "example": "Rata-rata data 4, 6, 8, 10 adalah …",
+    "solution": "Jumlah data 28 dan n=4, sehingga rata-rata 28/4=7.",
+    "source": "PDF Wajib 2025, hlm. 27; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W20",
+    "group": "W",
+    "title": "Peluang kejadian tunggal",
+    "definition": "Peluang mengukur kemungkinan kejadian; nilainya berada antara 0 dan 1.",
+    "formula": "P(A)=n(A)/n(S) untuk hasil yang sama mungkin",
+    "symbols": "P(A)=n(A)/n(S) jika hasil sama mungkin. A kejadian, S ruang sampel, n banyak anggota.",
+    "stem": "Koin, dadu, undian, atau satu kejadian dari ruang sampel.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Tulis anggota kejadian dan ruang sampel.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Periksa ruang sampel dan apakah setiap hasil sama mungkin.",
+    "tip": "Tulis anggota kejadian dan ruang sampel.",
+    "example": "Satu dadu adil dilempar. Peluang muncul bilangan genap adalah …",
+    "solution": "Hasil genap {2,4,6} berjumlah 3 dari 6 hasil: 3/6=1/2.",
+    "source": "PDF Wajib 2025, hlm. 28; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "W21",
+    "group": "W",
+    "title": "Peluang kejadian majemuk",
+    "definition": "Kejadian majemuk menggabungkan dua kejadian dengan kata “atau” maupun “dan”.",
+    "formula": "P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A)",
+    "symbols": "P(A∪B)=P(A)+P(B)−P(A∩B); P(A∩B)=P(A)P(B|A). Perkalian langsung hanya untuk kejadian bebas.",
+    "stem": "Minimal satu, keduanya, dengan atau tanpa pengembalian.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Daftar seluruh pasangan agar tidak melewatkan urutan.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "P(A∩B)=P(A)P(B) hanya jika A dan B independen.",
+    "tip": "Daftar seluruh pasangan agar tidak melewatkan urutan.",
+    "example": "Dua koin adil dilempar. Peluang keduanya muncul gambar adalah …",
+    "solution": "Empat hasil sama mungkin: GG, GA, AG, AA. Hanya GG sesuai: 1/4.",
+    "source": "PDF Wajib 2025, hlm. 29; kerangka Pusmendik.",
+    "verified": true
+  },
+  {
+    "id": "L22",
+    "group": "L",
+    "title": "Matriks",
+    "definition": "Matriks menyusun bilangan dalam baris dan kolom; determinan menentukan keterbalikan matriks persegi.",
+    "formula": "det [[a,b],[c,d]]=ad−bc; A⁻¹=[[d,−b],[−c,a]]/det A",
+    "symbols": "Untuk A=[[a,b],[c,d]], det A=ad−bc. Invers ada bila det A≠0; hasil kali matriks umumnya bergantung urutan.",
+    "stem": "Operasi matriks, determinan, atau invers matriks.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Kalikan diagonal utama lalu kurangi diagonal lain.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Invers hanya ada jika determinan tidak nol.",
+    "tip": "Kalikan diagonal utama lalu kurangi diagonal lain.",
+    "example": "Determinan matriks [[2,1],[3,4]] adalah …",
+    "solution": "det=2×4−1×3=5. Urutan pengurangan menentukan tanda.",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  },
+  {
+    "id": "L23",
+    "group": "L",
+    "title": "Polinomial",
+    "definition": "Polinomial adalah jumlah suku berpangkat bilangan bulat tak negatif. Teorema sisa menghubungkan pembagian dengan substitusi.",
+    "formula": "Sisa P(x) dibagi x−a adalah P(a)",
+    "symbols": "Sisa pembagian oleh x−a adalah P(a). x−a faktor bila P(a)=0; perhatikan tanda a.",
+    "stem": "P(x), pembagi x−a, faktor, sisa atau akar.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Substitusi a dengan memperhatikan tanda pembagi.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Teorema sisa untuk pembagi x−a. Jika P(a)=0, x−a adalah faktor.",
+    "tip": "Substitusi a dengan memperhatikan tanda pembagi.",
+    "example": "Sisa pembagian P(x)=x²−3x+4 oleh x−2 adalah …",
+    "solution": "P(2)=4−6+4=2. Jadi sisanya 2.",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  },
+  {
+    "id": "L24",
+    "group": "L",
+    "title": "Fungsi lanjut dan domain",
+    "definition": "Domain adalah himpunan input yang membuat fungsi terdefinisi; range adalah himpunan output yang dihasilkan.",
+    "formula": "Penyebut ≠ 0; isi akar kuadrat ≥ 0; argumen logaritma > 0",
+    "symbols": "Penyebut ≠0; radikan akar genap ≥0; argumen logaritma >0 dan basis positif ≠1.",
+    "stem": "Penyebut, akar, logaritma, atau grafik fungsi.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Periksa titik yang membuat penyebut nol.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Basis logaritma positif dan tidak sama dengan 1.",
+    "tip": "Periksa titik yang membuat penyebut nol.",
+    "example": "Domain f(x)=1/(x−2) adalah …",
+    "solution": "Penyebut x−2 tidak boleh nol, jadi semua bilangan real kecuali 2.",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  },
+  {
+    "id": "L25",
+    "group": "L",
+    "title": "Vektor",
+    "definition": "Vektor memiliki besar dan arah; komponen menyatakan perpindahan pada masing-masing sumbu.",
+    "formula": "|(a,b)|=√(a²+b²); penjumlahan dilakukan per komponen",
+    "symbols": "Untuk v=(a,b,c), |v|=√(a²+b²+c²); operasi tambah dan kurang dilakukan per komponen.",
+    "stem": "Perpindahan, resultan, komponen, atau panjang vektor.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Gunakan Pythagoras pada komponen.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Vektor ruang memiliki sampai tiga komponen pada cakupan yang ditemukan.",
+    "tip": "Gunakan Pythagoras pada komponen.",
+    "example": "Panjang vektor (3,4) adalah …",
+    "solution": "Panjang = √(3²+4²)=√25=5.",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  },
+  {
+    "id": "L26",
+    "group": "L",
+    "title": "Lingkaran analitik",
+    "definition": "Persamaan lingkaran menggambarkan titik berjarak tetap dari satu pusat.",
+    "formula": "(x−a)²+(y−b)²=r² berpusat (a,b) dan berjari-jari r",
+    "symbols": "(x−a)²+(y−b)²=r²: pusat (a,b), jari-jari r≥0. Garis singgung tegak lurus jari-jari pada titik singgung.",
+    "stem": "Diminta pusat, jari-jari, titik pada lingkaran, atau garis singgung.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Tulis y+3 sebagai y−(−3).",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Perhatikan tanda negatif pada bentuk baku.",
+    "tip": "Tulis y+3 sebagai y−(−3).",
+    "example": "Pusat lingkaran (x−2)²+(y+3)²=16 adalah …",
+    "solution": "Bandingkan dengan (x−a)²+(y−b)²=r². Pusatnya (2,−3), r=4.",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  },
+  {
+    "id": "L27",
+    "group": "L",
+    "title": "Transformasi lanjut",
+    "definition": "Transformasi dapat dinyatakan dengan matriks dan dikomposisikan secara berurutan.",
+    "formula": "Komposisi diterapkan dari kanan ke kiri; dilatasi skala k mengalikan luas dengan k²",
+    "symbols": "Dilatasi faktor k mengubah panjang dengan |k| dan luas dengan k². A(Bx) diwakili ABx; urutan penting.",
+    "stem": "Matriks transformasi, skala, luas bayangan, atau komposisi.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Panjang skala k, luas skala k².",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Matriks komposisi tidak selalu komutatif; pusat dilatasi perlu diketahui.",
+    "tip": "Panjang skala k, luas skala k².",
+    "example": "Bangun luas 6 satuan² didilatasi dengan faktor 3. Luas bayangan adalah …",
+    "solution": "Luas berubah dengan faktor 3²=9, jadi 6×9=54 satuan².",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  },
+  {
+    "id": "L28",
+    "group": "L",
+    "title": "Limit aljabar dan trigonometri",
+    "definition": "Limit mendeskripsikan nilai yang didekati fungsi ketika input mendekati suatu titik.",
+    "formula": "lim x→a (x²−a²)/(x−a)=2a; lim x→0 sin x/x=1",
+    "symbols": "0/0 bukan nilai limit. Sederhanakan di sekitar titik; lim x→0 sin x/x=1 dengan x dalam radian.",
+    "stem": "Substitusi menghasilkan 0/0, bentuk perlu difaktorkan, atau limit trigonometri.",
+    "steps": [
+      "Identifikasi informasi yang diberikan dan ditanyakan.",
+      "Bentuk 0/0 memerlukan penyederhanaan dahulu.",
+      "Periksa hasil dan syarat rumus."
+    ],
+    "trap": "Faktorisasi berlaku untuk x≠a; limit trigonometri dasar memakai radian.",
+    "tip": "Bentuk 0/0 memerlukan penyederhanaan dahulu.",
+    "example": "Nilai lim x→2 (x²−4)/(x−2) adalah …",
+    "solution": "Faktorkan (x−2)(x+2), sederhanakan untuk x≠2, lalu limit x+2=4.",
+    "source": "Kerangka resmi Pusmendik (elemen lanjut).",
+    "verified": true
+  }
+]
